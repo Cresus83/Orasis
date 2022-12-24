@@ -363,6 +363,32 @@
             </div>
         </div>
     </section>
+
+    <!-- ======= Section Inscriptions ======= -->
+    <section>
+        <div class="inscription">
+            <div class="register_bg"></div>
+            <div class="title">
+                <span style="color: rgba(213, 213, 213, 0.62);">s'inscrire</span>
+                <h2 style="color: #fff">s'inscrire</h2>
+            </div>
+
+            <div class="register_content">
+                <p class="register_text">La 19ème édition d'ORASIS acceuille des auteurs volontaires !<br><br>
+                    Si vous souhaitez soumettre un article en tant qu’auteur pour une quelconque raison, c’est possible
+                    !<br><br>
+                    Vous aurez aussi l’occasion de présenter votre article* à la conférence.
+
+                </p>
+                <button class="registerbtn">Inscription <i class="fa fa-solid fa-chevron-right"></i></button>
+                <a href="#">Instruction pour les soummisions d'articles</a>
+                <p class="remarques2">*Pour obtenir l’accès à la soumission d’article, il vous faut au préalable créer un
+                    compte
+                    “auteur”.</p>
+            </div>
+
+        </div>
+    </section>
 </main>
 
 

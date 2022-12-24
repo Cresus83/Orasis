@@ -43,7 +43,7 @@ section {
 
 .title {
     text-align: center;
-    padding: 30px 0;
+    padding: 23px 0;
     position: relative;
 }
 
@@ -465,8 +465,8 @@ section {
 }
 
 .btnCTA {
-    width: 360px;
-    height: 4rem;
+    width: 340px;
+    height: 3.3rem;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -474,11 +474,12 @@ section {
     border-radius: 5px;
     border: none;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .btnCTA .fa {
     position: relative;
+    font-size: 20px;
 }
 
 .remarques {
@@ -492,9 +493,6 @@ section {
 /*--------------------------------------------------------------
 ################ Fin section Vidéos Orasis ################
 --------------------------------------------------------------*/
-
-
-
 
 /*--------------------------------------------------------------
 # Section Activités
@@ -522,11 +520,72 @@ section {
     font-size: 21px;
     line-height: 32px;
 }
+/*--------------------------------------------------------------
+# Section Inscription
+--------------------------------------------------------------*/
+.inscription {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/sea.jpg");
+    background-size: cover;
+}
 
+.register_content {
+    padding: 0 20% 0 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.registerbtn {
+    background: #ffffff;
+    border-radius: 100px;
+    color: #0d5e80;
+    width: 250px;
+    text-align: center;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 5% 0 5% 0;
+}
 
+.registerbtn .fa {
+    color: #0d5e80;
+    font-size: 20px;
+}
 
+.register_text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
 
+.inscription a {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: white;
+    margin-bottom: 3%;
+}
 
+.remarques2 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #f4f4f4;
+    margin-bottom: 5%;
+}
+/*--------------------------------------------------------------
+################ Fin section Incription ################
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 ################ RESPONSIVE ################
