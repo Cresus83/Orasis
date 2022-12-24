@@ -268,6 +268,100 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ======= Section INTERVENANTS ORASIS ======= -->
+    <section>
+        <div class="container discover doublesquare2">
+            <div class="leftzone">
+                <h3 class="discover_title">Jeter un œil aux personnalités qui interviendront durant cette
+                    conférence</h3>
+                <p class="discover_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                    consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit amet
+                    commodo sodales...</p>
+                <div id="discover_button">
+                    <button class="learn-more length">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                        <span class="button-text">en savoir plus sur les intervenants</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="bot-img">
+                <img src="./assets/img/confer.png" alt="Conferences">
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section Vidéos Orasis ======= -->
+    <section>
+        <div class="title">
+            <span>édition précédente</span>
+            <h2>édition précédente</h2>
+        </div>
+        <div class="container videos">
+
+            <div class="videos-carousel owl-carousel owl-theme">
+                <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
+                             title="YouTube video player" frameborder="0"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe></div>
+                <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
+                             title="YouTube video player" frameborder="0"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe></div>
+                <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
+                             title="YouTube video player" frameborder="0"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe></div>
+                <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
+                             title="YouTube video player" frameborder="0"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe></div>
+                <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
+                             title="YouTube video player" frameborder="0"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowfullscreen></iframe></div>
+
+            </div>
+
+            <button class="btnCTA">VOIR TOUTES LES VIDÉOS <i class="fa fa-solid fa-chevron-right"></i></button>
+
+        </div>
+    </section>
+
+    <!-- ======= Section Activités ======= -->
+    <section>
+        <div class="title">
+            <span>activités</span>
+            <h2>activités</h2>
+        </div>
+        <div class="container Activites">
+
+            <div class="doublesquare">
+                <div class="leftzone">
+
+                    <img class="topimg" src="./assets/img/act1.png" alt="VTT">
+
+
+                    <img class="botimg" src="./assets/img/act2.png" alt="Parachute">
+
+
+                </div>
+                <div class="rightzone">
+
+                    <p class="activity_text">Durant cette 19ème édition d’ORASIS, le divertissement est présent !
+                        En effet, diverses activités sont prévus pour cette édition pour divertir un maximum nos
+                        participants...
+                        Vous pouvez retrouver les activités en cliquant sur le bouton ci-dessous.
+                    </p>
+                    <button class="btnmore">Découvrir <i class="fa fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 

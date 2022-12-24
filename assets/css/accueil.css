@@ -180,7 +180,7 @@ section {
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Section A propos
+# Section Découvrir + Intervenants Orasis
 --------------------------------------------------------------*/
 
 .discover {
@@ -384,6 +384,7 @@ section {
 .theme_icon {
     text-align: center;
 }
+
 .icon_theme {
     width: 40%;
     display: flex;
@@ -412,9 +413,119 @@ section {
 .modal-content .title .title span {
     font-size: 38px;
 }
+
 .modal-content .title .title h2 {
     font-size: 26px;
 }
+
+/*------------------------------------------------------------------------------
+################ Fin Section Découvrir + Intervenants Orasis ################
+--------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Vidéos Orasis
+--------------------------------------------------------------*/
+
+.videos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.owl-carousel {
+    display: block !important;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #01567a;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+.owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    background: #01567a;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
+}
+
+.btnCTA {
+    width: 360px;
+    height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #01567a;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.btnCTA .fa {
+    position: relative;
+}
+
+.remarques {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #747474;
+}
+/*--------------------------------------------------------------
+################ Fin section Vidéos Orasis ################
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Section Activités
+--------------------------------------------------------------*/
+
+
+.Activites .doublesquare .leftzone img {
+    width: 40%;
+}
+.topimg {
+    position: relative;
+    top: -100px;
+    margin-right: 10%;
+}
+.botimg {
+    position: relative;
+    bottom: 0px;
+}
+.Activites .doublesquare .leftzone {
+    display: flex;
+}
+
+.activity_text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+
+
+
 
 
 /*--------------------------------------------------------------
@@ -474,21 +585,37 @@ section {
         flex-direction: column;
         margin: auto;
     }
+
     .doublesquare {
         display: flex;
         flex-direction: column;
     }
+
+    .doublesquare2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .bot-img img {
         width: 100%;
         display: flex;
         margin: auto;
     }
+
     .discover_text {
         padding-bottom: 3%;
     }
+
     .discover button {
         display: flex;
         margin: auto;
+    }
+    .owl-item iframe {
+        width: 310px;
+        height: 250px;
+    }
+    .Activites .doublesquare .leftzone {
+        margin: 80px 0 40px 0;
     }
 }
 
@@ -518,6 +645,7 @@ section {
         display: flex;
         margin: auto;
     }
+
     .bot-img img {
         width: 70%;
     }
@@ -531,6 +659,11 @@ section {
 
     #hero h4.second-title {
         font-size: 35px;
+    }
+    .gallery_videos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
     }
 
 }
@@ -571,8 +704,11 @@ section {
         display: flex;
         flex-direction: row;
     }
+    .owl-item iframe {
+        width: 488px;
+        height: 313px;
+    }
 
-    
 }
 
 @media (min-width: 1281px) {
@@ -605,17 +741,27 @@ section {
         display: flex;
         flex-direction: row;
     }
-    .doublesquare {
+
+    .doublesquare, .doublesquare2 {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
+
     .bot-img img {
         width: 100%;
     }
+
     .discover_text {
         padding-bottom: 10%;
     }
+
     .discover button {
         display: inline-block;
+    }
+    .gallery_videos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
     }
 }
