@@ -183,7 +183,6 @@ section {
 # Section A propos
 --------------------------------------------------------------*/
 
-/* Section Découvrir */
 .discover {
     width: 100%;
     height: 100%;
@@ -309,6 +308,114 @@ section {
     color: #fff;
 }
 
+/* MODAL POP UP */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 20px;
+    width: 85%;
+    height: 74%;
+    border-radius: 10px;
+}
+
+/* The Close Button */
+
+.close {
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: #0d5e80;
+    padding: 1.5px 9px;
+    left: 0;
+    float: right;
+    z-index: 10;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -9px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: white;
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: -3px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.close:hover {
+    background-color: tomato;
+    color: #fff;
+}
+
+.grid_theme {
+    display: grid;
+    grid-template-columns: repeat(6, 12%);
+    grid-gap: 8% 2%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-content {
+    width: 85%;
+    height: 81%;
+}
+
+.theme_item {
+    background: #ffffff;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.theme_icon {
+    text-align: center;
+}
+.icon_theme {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.theme_text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    height: 55px;
+    color: #01567a;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme_text p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.modal-content .title .title span {
+    font-size: 38px;
+}
+.modal-content .title .title h2 {
+    font-size: 26px;
+}
+
 
 /*--------------------------------------------------------------
 ################ RESPONSIVE ################
@@ -367,7 +474,22 @@ section {
         flex-direction: column;
         margin: auto;
     }
-
+    .doublesquare {
+        display: flex;
+        flex-direction: column;
+    }
+    .bot-img img {
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+    .discover_text {
+        padding-bottom: 3%;
+    }
+    .discover button {
+        display: flex;
+        margin: auto;
+    }
 }
 
 @media (min-width: 481px) {
@@ -395,6 +517,9 @@ section {
         width: 80%;
         display: flex;
         margin: auto;
+    }
+    .bot-img img {
+        width: 70%;
     }
 }
 
@@ -446,6 +571,8 @@ section {
         display: flex;
         flex-direction: row;
     }
+
+    
 }
 
 @media (min-width: 1281px) {
@@ -477,5 +604,18 @@ section {
     .about_icons {
         display: flex;
         flex-direction: row;
+    }
+    .doublesquare {
+        display: flex;
+        flex-direction: row;
+    }
+    .bot-img img {
+        width: 100%;
+    }
+    .discover_text {
+        padding-bottom: 10%;
+    }
+    .discover button {
+        display: inline-block;
     }
 }

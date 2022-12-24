@@ -86,7 +86,7 @@
             </div>
     </section>
 
-    <!-- ======= Section Decouvrir Orasis =======
+    <!-- ======= Section Decouvrir Orasis ======= -->
     <section>
         <div class="title">
             <span>découvrir orasis</span>
@@ -95,7 +95,7 @@
         <div class="container discover">
 
             <div class="doublesquare">
-                <div class="leftzone">
+                <div class="bot-img">
                     <img src="./assets/img/themes.png" alt="Themes">
                 </div>
                 <div class="rightzone">
@@ -110,7 +110,6 @@
                             </span>
                             <span class="button-text">découvrir les thèmes</span>
                         </button>
-
                         <div class="modal" id="modal_theme">
                             <div class="modal-content">
                                 <div class="btn_close">
@@ -121,7 +120,147 @@
                                     <h2>Les thématiques</h2>
                                 </div>
 
+                                <div class="grid_theme">
+                                    <!-- LIGNE 1 -->
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/vision.png"
+                                                 alt="Vision & Géometrie">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>VISION & GÉOMÉTRIE</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/asservissement.png"
+                                                 alt="Vision & Asservissement">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>VISION & ASSERVISSEMENT</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/active.png" alt="Vision active">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>VISION ACTIVE</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/robotique.png"
+                                                 alt="Vision Robotique">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>VISION ROBOTIQUE</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/3d.png" alt="Modélisation 3d">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>MODÉLISATION 3D</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/mvt.png"
+                                                 alt="Analyse du mouvement">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>ANALYSE DU MVT & DE SCÈNES</p>
+                                        </div>
+                                    </div>
+                                    <!-- LIGNE 2 -->
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/suivi.png" alt="Suivi visuel">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>SUIVI VISUELS</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/deformable.png"
+                                                 alt="Modèle déformable">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>MODÈLES DÉFORMABLES</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/apprenti.png" alt="Apprentissage">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>APPRENTISSAGE</p>
+                                        </div>
+                                    </div>
 
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/class.png" alt="Classification">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>CLASSIFICATION</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/interpre.png"
+                                                 alt="Interpretation">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>INTERPRÉTATION</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/indexation.png"
+                                                 alt="Indexation multimédia">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>INDEXATION MULTIMÉDIA</p>
+                                        </div>
+                                    </div>
+                                    <!-- LIGNE 3 -->
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/compress.png" alt="Compression">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>COMPRESSION</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/segment.png" alt="Segmentation">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>SEGMENTATION</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/reconnaissance.png"
+                                                 alt="Indexation multimédia">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>RECONNAISSANCE</p>
+                                        </div>
+                                    </div>
+                                    <div class="theme_item">
+                                        <div class="theme_icon">
+                                            <img class="icon_theme" src="./assets/img/vr.png" alt="RÉALITÉ VIRTUELLE">
+                                        </div>
+                                        <div class="theme_text">
+                                            <p>RÉALITÉ VIRTUELLE</p>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -129,7 +268,7 @@
                     </div>
                 </div>
             </div>
-    </section>-->
+    </section>
 </main>
 
 
