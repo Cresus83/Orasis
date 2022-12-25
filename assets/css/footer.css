@@ -33,12 +33,6 @@
   display: inline-block;
 }
 
-.rh-footer {
-  width: 23%;
-  display: inline-block;
-  margin-bottom: 2rem;
-}
-
 .bandeau {
   position: relative;
   width: 100%;
@@ -91,6 +85,11 @@
 @media (max-width: 1000px) {
   #footer {
     max-width: 950px;
+    padding: 0 5%;
+  }
+
+  .dropdown i {
+    display: none;
   }
 }
 

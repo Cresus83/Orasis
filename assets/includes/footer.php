@@ -18,11 +18,7 @@
         <img class="footerlogo2" src="./assets/img/inp.png">
     </div>
 
-    <div class="rh-footer">
-        <h4 class="titlefooter">Newsletter</h4>
-        <p>Recevez chaque mois les dernières actus de la conférence !</p>
-        <button class="footerbtn">JE M'INSCRIS <i class="fa fa-sharp fa-solid fa-arrow-right"></i></button>
-    </div>
+
 
 
 </footer>
