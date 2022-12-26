@@ -326,4 +326,8 @@ li > a.active-nav::after {
   .navbar.collapsed .logo {
     width: 70%;
   }
+
+  .navbar.collapsed ul.links {
+    height: 100%;
+  }
 }

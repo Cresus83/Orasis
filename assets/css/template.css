@@ -8,62 +8,62 @@
 # General
 --------------------------------------------------------------*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins";
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
 }
 
 body,
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 section {
-    padding: 70px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 .container {
-    /* Et on centre */
-    margin-right: auto;
-    margin-left: auto;
+  /* Et on centre */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #main {
-    background: no-repeat center url("../img/bg_lines.svg");
-    width: 100%;
-    z-index: 1000000;
+  background: no-repeat center url("../img/bg_lines.svg");
+  width: 100%;
+  z-index: 1000000;
 }
 
 .title {
-    text-align: center;
-    padding: 23px 0;
-    position: relative;
+  text-align: center;
+  padding: 23px 0;
+  position: relative;
 }
 
 .title h2 {
-    /*Bluetitle*/
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    color: #01567a;
-    position: relative;
-    z-index: 2;
+  /*Bluetitle*/
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #01567a;
+  position: relative;
+  z-index: 2;
 }
 
 .title span {
-    /*Greytitle*/
-    position: absolute;
-    top: 30px;
-    color: rgba(213, 213, 213, 0.62);
-    left: 0;
-    right: 0;
-    z-index: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 0;
+  /*Greytitle*/
+  position: absolute;
+  top: 30px;
+  color: rgba(213, 213, 213, 0.62);
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0;
 }
 
 /*--------------------------------------------------------------
@@ -71,41 +71,41 @@ section {
 --------------------------------------------------------------*/
 
 @media (min-width: 320px) {
-    /* smartphones, iPhone, portrait 480x320 phones */
-    .title h2 {
-        /*Bluetitle*/
-        font-size: 27px;
-    }
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .title h2 {
+    /*Bluetitle*/
+    font-size: 27px;
+  }
 
-    .title span {
-        /*Greytitle*/
-        font-size: 21px;
-    }
-    .container {
-        /* On ajoute une marge sur les cotés de l’écran */
-        padding-right: 40px;
-        padding-left: 40px;
-    }
+  .title span {
+    /*Greytitle*/
+    font-size: 21px;
+  }
+  .container {
+    /* On ajoute une marge sur les cotés de l’écran */
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }
 
 @media (min-width: 481px) {
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    .title h2 {
-        /*Bluetitle*/
-        font-size: 30px;
-    }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .title h2 {
+    /*Bluetitle*/
+    font-size: 30px;
+  }
 
-    .title span {
-        /*Greytitle*/
-        font-size: 36px;
-    }
+  .title span {
+    /*Greytitle*/
+    font-size: 36px;
+  }
 }
 
 @media (min-width: 1025px) {
-    /* big landscape tablets, laptops, and desktops */
-    .container {
-        /* On ajoute une marge sur les cotés de l’écran */
-        padding-right: 150px;
-        padding-left: 150px;
-    }
+  /* big landscape tablets, laptops, and desktops */
+  .container {
+    /* On ajoute une marge sur les cotés de l’écran */
+    padding-right: 150px;
+    padding-left: 150px;
+  }
 }
