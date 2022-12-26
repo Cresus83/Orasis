@@ -95,7 +95,37 @@ if ($("body").data("title") === "js_sessions") {
     });
   }
 }
+//* PAGE ACTIVITES
+if ($("body").data("title") === "js_activites") {
+  //* JS POUR MODAL "ACTIVITES"
+  // Button Randonnée
+  let btnActivite = document.querySelectorAll(".acti");
+  // Id du modal général
+  let modalActivite = document.querySelectorAll(".modal");
+  // Bouton fermeture
+  let spanCloseBtn = document.querySelectorAll(".close");
 
+  console.log(spanCloseBtn);
+
+  for (let i = 0; i < btnActivite.length; i++) {
+    // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
+    btnActivite[i].onclick = function () {
+      if (
+        btnActivite[i].dataset["activite"] ==
+        modalActivite[i].dataset["activite"]
+      ) {
+        modalActivite[i].style.display = "flex";
+        document.body.style.overflowY = "hidden";
+      }
+    };
+
+    // Sur le click, fermeture du modal
+    spanCloseBtn[i].onclick = function () {
+      modalActivite[i].style.display = "none";
+      document.body.style.overflowY = "visible";
+    };
+  }
+}
 //* PAGE PROGRAMME
 
 if ($("body").data("title") === "js_programme") {

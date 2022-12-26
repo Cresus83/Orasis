@@ -1,36 +1,8 @@
 <!doctype html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes 22 au 26 mai !" "/>
-    <meta name=" robots" content="index, follow" />
-    <meta property="og:title" content="ORASIS 2023 | Accueil" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="#">
-    <meta property="og:description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes 22 au 26 mai !" "/>
-    <meta property=" og:locale" content="fr_FR" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="ORASIS 2023 | Accueil" />
-    <meta name="twitter:description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes 22 au 26 mai !" />
-    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
-    <title>ORASIS 2023 | Accueil</title>
-    <!-- CSS files -->
-    <link href="assets/css/accueil.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- FontAwesome link -->
-    <script src="https://kit.fontawesome.com/ec5f85796d.js" crossorigin="anonymous"></script>
-    <!-- JS LIBRARY -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        crossorigin="anonymous">
-</head>
+<?php include "assets/includes/header.php" ?>
 
 <body data-title="js_index">
     <!-- Navbar Import -->
@@ -293,7 +265,7 @@
                             <span class="circle" aria-hidden="true">
                                 <span class="icon arrow"></span>
                             </span>
-                            <span class="button-text">en savoir plus sur les intervenants</span>
+                            <span class="button-text">découvrir les intervenants</span>
                         </button>
                     </div>
 
@@ -302,6 +274,28 @@
                     <img src="./assets/img/confer.png" alt="Conferences">
                 </div>
             </div>
+        </section>
+        <!-- ======= Section PLANNING ORASIS ======= -->
+        <section>
+            <div class="container discover">
+
+                <div class="doublesquare">
+                    <div class="bot-img">
+                        <img src="./assets/img/planning.png" alt="Themes">
+                    </div>
+                    <div class="rightzone">
+                        <h3 class="discover_title">Quel est le planning d’ORASIS 2023 ?</h3>
+                        <p class="discover_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                            consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit
+                            amet commodo sodales...</p>
+                        <div id="discover_button">
+                            <button class="learn-more" id="theme_btn">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">voir le planning</span>
+                            </button>
+                        </div>
         </section>
 
         <!-- ======= Section Vidéos Orasis ======= -->
