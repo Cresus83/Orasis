@@ -261,12 +261,13 @@
                         consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit amet
                         commodo sodales...</p>
                     <div id="discover_button">
-                        <button class="learn-more length">
-                            <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">découvrir les intervenants</span>
-                        </button>
+                        <a href="intervenants.php">
+                            <button class="learn-more length">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">découvrir les intervenants</span>
+                            </button></a>
                     </div>
 
                 </div>
@@ -288,13 +289,13 @@
                         <p class="discover_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit
                             amet commodo sodales...</p>
-                        <div id="discover_button">
-                            <button class="learn-more" id="theme_btn">
-                                <span class="circle" aria-hidden="true">
-                                    <span class="icon arrow"></span>
-                                </span>
-                                <span class="button-text">voir le planning</span>
-                            </button>
+                        <div id="discover_button"><a href="programme.php">
+                                <button class="learn-more" id="theme_btn">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                    <span class="button-text">voir le planning</span>
+                                </button></a>
                         </div>
         </section>
 
@@ -330,7 +331,8 @@
 
                 </div>
 
-                <button class="btnCTA">VOIR TOUTES LES VIDÉOS <i class="fa fa-solid fa-chevron-right"></i></button>
+                <a href="sessions.php"><button class="btnCTA">VOIR TOUTES LES VIDÉOS <i
+                            class="fa fa-solid fa-chevron-right"></i></button></a>
 
             </div>
         </section>
@@ -360,7 +362,8 @@
                             participants...
                             Vous pouvez retrouver les activités en cliquant sur le bouton ci-dessous.
                         </p>
-                        <button class="btnmore">Découvrir <i class="fa fa-solid fa-chevron-right"></i></button>
+                        <a href="./activites.php"> <button class="btnmore">Découvrir <i
+                                    class="fa fa-solid fa-chevron-right"></i></button></a>
                     </div>
                 </div>
             </div>

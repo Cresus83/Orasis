@@ -17,6 +17,8 @@
     <!-- CSS files -->
     <link href="assets/css/accueil.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +27,5 @@
     <!-- FontAwesome link -->
     <script src="https://kit.fontawesome.com/ec5f85796d.js" crossorigin="anonymous"></script>
     <!-- JS LIBRARY -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        crossorigin="anonymous">
+
 </head>

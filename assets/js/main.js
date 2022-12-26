@@ -10,6 +10,15 @@ window.jQuery ||
     '<script src="assets/js/vendor/jquery-2.2.4.min.js"></script>'
   );
 
+let currentUrl = document.location.href;
+let header = document.getElementById("navbar");
+let btns = header.getElementsByClassName("link_navbar");
+for (let i = 0; i < btns.length; i++) {
+  if (currentUrl.includes(btns[i].children[0].pathname)) {
+    btns[i].children[0].classList.add("active");
+  }
+}
+
 //* PAGE ACCUEIL
 if ($("body").data("title") === "js_index") {
   //* JS POUR MODAL "THEME"
