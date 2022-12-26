@@ -361,7 +361,7 @@
                     <div class="rightzone">
 
                         <p class="activity_text">Durant cette 19ème édition d’ORASIS, le divertissement est présent !
-                            En effet, diverses activités sont prévus pour cette édition pour divertir un maximum nos
+                            En effet, diverses activités sont prévues pour cette édition pour divertir un maximum nos
                             participants...
                             Vous pouvez retrouver les activités en cliquant sur le bouton ci-dessous.
                         </p>

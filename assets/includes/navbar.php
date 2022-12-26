@@ -9,7 +9,7 @@
 
         <li class="link_navbar"><a href="./activites.php">Activites</a></li>
         <li class="link_navbar"><a href="./intervenants.php">Intervenants</a></li>
-        <li class="link_navbar"><a href="./information.php">Informations</a></li>
+        <li class="link_navbar"><a href="./informations.php">Informations</a></li>
         <div class="bottom">
             <a href="#">Connexion</a>
             <a href="#">Inscription</a>
