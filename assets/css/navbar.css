@@ -268,8 +268,8 @@ li > a.active-nav::after {
   .navbar.collapsed .bottom {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 34%;
     width: 100%;
     align-items: center;
     background-color: #01567a;
@@ -323,11 +323,16 @@ li > a.active-nav::after {
     width: 100%;
   }
 
+  .navbar {
+    max-width: 72%;
+  }
+
   .navbar.collapsed .logo {
     width: 70%;
   }
 
   .navbar.collapsed ul.links {
     height: 100%;
+    max-width: 72%;
   }
 }

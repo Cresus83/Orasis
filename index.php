@@ -68,7 +68,7 @@
                 <span>découvrir orasis</span>
                 <h2>découvrir orasis</h2>
             </div>
-            <div class="container discover">
+            <div class="container discover ">
 
                 <div class="doublesquare">
                     <div class="bot-img">
@@ -269,7 +269,7 @@
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                 </span>
-                                <span class="button-text">découvrir les intervenants</span>
+                                <span class="button-text">nos intervenants</span>
                             </button></a>
                     </div>
 

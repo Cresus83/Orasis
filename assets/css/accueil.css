@@ -635,6 +635,13 @@
     width: 310px;
     height: 250px;
   }
+  .rightzone {
+    width: 100%;
+  }
+  .btnCTA {
+    font-size: 17px;
+    width: 250px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -678,7 +685,6 @@
     width: 310px;
     height: 250px;
   }
-
 }
 
 @media (min-width: 961px) {

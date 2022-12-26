@@ -124,4 +124,7 @@
   .titlefooter {
     font-size: 26px;
   }
+  .bandeau {
+    height: unset;
+  }
 }
