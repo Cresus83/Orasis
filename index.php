@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="fr">
 
-
+<link href="assets/css/accueil.css" rel="stylesheet">
+<title>ORASIS 2023 | Accueil</title>
 <?php include "assets/includes/header.php" ?>
+
+
 
 <body data-title="js_index">
     <!-- Navbar Import -->

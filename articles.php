@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <link href="assets/css/articles.css" rel="stylesheet">
+<title>ORASIS 2023 | Articles</title>
 <?php include "assets/includes/header.php" ?>
 
 <body data-title="js_articles">

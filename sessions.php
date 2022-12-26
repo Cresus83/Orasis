@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <link href="assets/css/sessions.css" rel="stylesheet">
+<title>ORASIS 2023 | Sessions</title>
 <!-- Header Import -->
 <?php include "assets/includes/header.php" ?>
 

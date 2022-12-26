@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <link href="assets/css/programme.css" rel="stylesheet">
+<title>ORASIS 2023 | Programme</title>
 
 <!-- Header Import -->
 <?php include "assets/includes/header.php" ?>

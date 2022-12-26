@@ -43,8 +43,7 @@ section {
 }
 
 .title h2 {
-  /*Greytitle*/
-  font-size: 36px;
+  /*Bluetitle*/
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -55,7 +54,7 @@ section {
 }
 
 .title span {
-  /*Bluetitle*/
+  /*Greytitle*/
   position: absolute;
   top: 30px;
   color: rgba(213, 213, 213, 0.62);
@@ -63,7 +62,6 @@ section {
   right: 0;
   z-index: 1;
   font-weight: 700;
-  font-size: 42px;
   text-transform: uppercase;
   line-height: 0;
 }
@@ -701,6 +699,15 @@ section {
     width: 310px;
     height: 250px;
   }
+  .title h2 {
+    /*Bluetitle*/
+    font-size: 21px;
+  }
+
+  .title span {
+    /*Greytitle*/
+    font-size: 27px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -719,6 +726,15 @@ section {
   .owl-item iframe {
     width: 310px;
     height: 250px;
+  }
+  .title h2 {
+    /*Bluetitle*/
+    font-size: 36px;
+  }
+
+  .title span {
+    /*Greytitle*/
+    font-size: 30px;
   }
 }
 
@@ -744,6 +760,7 @@ section {
     width: 310px;
     height: 250px;
   }
+
 }
 
 @media (min-width: 961px) {
