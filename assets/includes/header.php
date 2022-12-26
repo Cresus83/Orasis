@@ -16,6 +16,7 @@
     <title>ORASIS 2023 | Accueil</title>
     <!-- CSS files -->
     <link href="assets/css/accueil.css" rel="stylesheet">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         crossorigin="anonymous">

@@ -1,0 +1,207 @@
+.big_title h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.strong_text {
+  font-weight: bold;
+}
+
+.info_articles .text_articles {
+  background-color: white;
+  padding: 3%;
+}
+
+.container {
+  /* Et on centre */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.important_text {
+  color: #a30000;
+  font-weight: bold;
+}
+
+.top_row input:first-child {
+  margin-right: 5%;
+}
+input {
+  background: #ffffff;
+  border: 2px solid #0d5e80;
+  border-radius: 30px;
+  padding: 1.5% 0;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+input[type="text"],
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9a9a9a;
+  text-align: left;
+}
+
+textarea {
+  background: #ffffff;
+  border: 2px solid #0d5e80;
+  border-radius: 30px;
+  padding: 12px 20px;
+  width: 100%;
+  height: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 30%;
+}
+
+input[type="file"] {
+  background: #0d5e80;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #000000;
+  color: white;
+  transition: 1s;
+}
+.label_form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 24px 0;
+}
+
+.top_row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.bot_row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.zone {
+  margin: auto;
+  margin: 2% 0;
+  width: 100%;
+  height: 170px;
+  text-align: center;
+  color: white;
+  z-index: 20;
+  transition: all 0.3s ease-out;
+
+  border-radius: 10px;
+}
+.zone .btnCompression .active {
+  background: #eda;
+  color: white;
+}
+.zone i {
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin-top: 50px;
+}
+.zone .selectFile {
+  height: 50px;
+  margin: 20px auto;
+  position: relative;
+  width: 300px;
+  background-color: #0d5e80;
+}
+.zone label,
+.zone input {
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.zone label {
+  background: #0d5e80;
+  color: white;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 50px;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: 0 1px 1px gray;
+}
+.zone input[type="file"] {
+  opacity: 0;
+}
+
+.result {
+  color: #0d5e80;
+  background-color: white;
+  padding: 1% 0;
+  margin-top: 1%;
+}
+
+.submit {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.indication {
+  color: #0d5e80;
+}
+
+.centered {
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 481px) {
+}
+@media (min-width: 641px) {
+}
+@media (min-width: 961px) {
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 1281px) {
+  .container {
+    /* On ajoute une marge sur les cotés de l’écran */
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
