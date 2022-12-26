@@ -9,10 +9,13 @@
 <body data-title="js_activites">
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
-    <section class="content_page">
+
+    <main id="main">
+
+    <section>
         <div class="title">
-            <h1 class="greytitle">ACTIVITÉS</h1>
-            <h3 class="bluetitle">ACTIVITÉS</h3>
+            <span>activités</span>
+            <h2>activités</h2>
         </div>
         <div class="activites">
             <div class="activite_card rando">
@@ -163,6 +166,7 @@
         </div>
     </section>
 
+    </main>
     <!-- Footer Import -->
     <?php include "assets/includes/footer.php" ?>
 

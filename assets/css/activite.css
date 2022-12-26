@@ -1,41 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins";
-  font-style: normal;
-}
+/*--------------------------------------------------------------
+# Import
+--------------------------------------------------------------*/
+@import "template.css";
 
-body,
-html {
-  height: 100%;
-}
-.greytitle {
-  position: relative;
-  width: 100%;
-  font-weight: 600;
-  font-size: 62px;
-  line-height: 128px;
-  text-align: center;
-
-  color: rgba(213, 213, 213, 0.62);
-}
-.bluetitle {
-  position: relative;
-  width: 100%;
-  top: -80px;
-  font-weight: 700;
-  font-size: 46px;
-  line-height: 84px;
-  text-align: center;
-  color: #01567a;
-}
-
-.content_page {
-  padding: 0 10% 0 10%;
-  background: no-repeat center url("../img/bg_lines.svg");
-  width: 100%;
-}
 .activites {
   display: grid;
   grid-template-columns: 30% 30%;
@@ -262,13 +229,6 @@ html {
 
   .modal-content {
     height: 90%;
-  }
-  .greytitle {
-    font-size: 32px;
-  }
-  .bluetitle {
-    font-size: 24px;
-    line-height: 55px;
   }
 }
 @media (min-width: 481px) {

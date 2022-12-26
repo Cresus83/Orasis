@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <link href="assets/css/comites.css" rel="stylesheet">
 <title>ORASIS 2023 | Intervenants</title>
-
 <!-- Header Import -->
 <?php include "assets/includes/header.php" ?>
 
 <body>
-    <!-- Navbar Import -->
-    <?php include "assets/includes/navbar.php" ?>
-    <section class="content_page">
+<!-- Navbar Import -->
+<?php include "assets/includes/navbar.php" ?>
+
+<main id="main">
+
+    <section class="container content_page">
         <div class="comites">
             <div class="title">
-                <h1 class="greytitle">NOS COMITÉS</h1>
-                <h3 class="bluetitle">NOS COMITÉS</h3>
+                <span>nos comités</span>
+                <h2>nos comités</h2>
             </div>
             <div class="liste">
                 <div class="organisation">
@@ -217,9 +220,10 @@
             </div>
         </div>
     </section>
+</main>
 
-    <!-- Footer Import -->
-    <?php include "assets/includes/footer.php" ?>
+<!-- Footer Import -->
+<?php include "assets/includes/footer.php" ?>
 
 </body>
 

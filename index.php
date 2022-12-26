@@ -373,7 +373,7 @@
         </section>
 
         <!-- ======= Section Inscriptions ======= -->
-        <section style="padding: 0">
+        <section>
             <div class="inscription">
                 <div class="register_bg"></div>
                 <div class="title">

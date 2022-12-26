@@ -1,38 +1,7 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Poppins";
-  font-style: normal;
-}
-
-body,
-html,
-section {
-  height: 100%;
-}
-
-.bluetitle {
-  position: relative;
-  width: 100%;
-  top: -80px;
-  font-weight: 700;
-  font-size: 46px;
-  line-height: 84px;
-  text-align: center;
-  color: #01567a;
-}
-
-.greytitle {
-  position: relative;
-  width: 100%;
-  font-weight: 600;
-  font-size: 62px;
-  line-height: 128px;
-  text-align: center;
-
-  color: rgba(213, 213, 213, 0.62);
-}
+/*--------------------------------------------------------------
+# Import
+--------------------------------------------------------------*/
+@import "template.css";
 
 .programme {
   display: flex;
@@ -41,13 +10,6 @@ section {
   flex-direction: column;
 }
 
-.content_page {
-  padding: 0 10% 0 10%;
-  background: no-repeat center url("../img/bg_lines.svg");
-  width: 100%;
-  z-index: 1;
-  position: relative;
-}
 .calendar {
   z-index: 8;
 
@@ -396,17 +358,6 @@ li {
   .current-events {
     margin-bottom: 10%;
   }
-  .greytitle {
-    font-size: 32px;
-  }
-  .bluetitle {
-    font-size: 24px;
-    line-height: 55px;
-  }
-
-  .content_page {
-    margin-bottom: 30%;
-  }
 }
 @media (min-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -458,17 +409,6 @@ li {
   }
   .current-events {
     margin-bottom: 10%;
-  }
-  .greytitle {
-    font-size: 62px;
-  }
-  .bluetitle {
-    font-size: 46px;
-    line-height: 84px;
-  }
-
-  .content_page {
-    margin-bottom: unset;
   }
 }
 @media (min-width: 1025px) {

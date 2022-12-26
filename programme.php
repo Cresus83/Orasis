@@ -10,10 +10,13 @@
 <body data-title="js_programme">
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
-    <section class="content_page">
+
+    <main id="main">
+
+    <section>
         <div class="title">
-            <h1 class="greytitle">LE PROGRAMME</h1>
-            <h3 class="bluetitle">LE PROGRAMME</h3>
+            <span>le programme</span>
+            <h2>le programme</h2>
         </div>
         <div class="programme">
             <div class="calendar" id="day_calendar">
@@ -86,6 +89,8 @@
         </div>
         <!-- container -->
     </section>
+
+    </main>
     <!-- Footer Import -->
     <?php include "assets/includes/footer.php" ?>
 

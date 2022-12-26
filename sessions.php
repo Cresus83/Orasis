@@ -8,10 +8,13 @@
 <body data-title="js_sessions">
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
-    <section class="sessions">
+
+    <main id="main">
+
+    <section>
         <div class="title">
-            <h1 class="greytitle">NOS SESSIONS</h1>
-            <h3 class="bluetitle">NOS SESSIONS</h3>
+            <span>nos sessions</span>
+            <h2>nos sessions</h2>
         </div>
         <div class="gallery">
             <h4>Filtrer par domaine :</h4>
@@ -61,6 +64,7 @@
         </div>
     </section>
 
+    </main>
     <!-- Footer Import -->
     <?php include "assets/includes/footer.php" ?>
 
