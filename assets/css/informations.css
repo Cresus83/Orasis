@@ -13,7 +13,7 @@
 }
 
 .conference {
-    padding: 100px 0 100px 0;
+    padding: 80px 0 80px 0;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -152,13 +152,6 @@
     padding: 0 30px 0 30px;
 }
 
-.aeroport p, .gare p {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: auto;
-}
-
 .aeroport span {
     color: #01567A;
     font-weight: 600;
@@ -169,12 +162,89 @@
     justify-content: space-evenly;
 }
 
+.conference iframe {
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
+    border:0;
+    border-radius: 10px;
+}
+
+.afrif {
+    border-radius: 10px;
+    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
+    font-size: 18px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-afrif {
+    background-color: #01567A;
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.title-afrif h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.afrif-text p {
+    padding: 30px;
+}
+
+.btnmore {
+    position: relative;
+    width: 230px;
+    height: 2.5rem;
+    margin: 2% 3%;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #01567A;
+    color: #01567A;
+    background: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    text-transform: uppercase;
+}
+
+.fa {
+    margin-left: 10px;
+}
+
+.btnCTA2 {
+    width: 340px;
+    height: 3.3rem;
+    text-transform: uppercase;
+    color: white;
+    background: #01567a;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*--------------------------------------------------------------
 ################ RESPONSIVE ################
 --------------------------------------------------------------*/
 @media (min-width: 320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
-    .btnCTA {
+    .btnCTA, .btnCTA2 {
         font-size: 17px;
         width: 250px;
     }
@@ -195,7 +265,6 @@
     .aeroport {
         width: 100%;
         padding: 30px;
-        text-align: center;
     }
 
     .app-download {
@@ -236,5 +305,9 @@
         border-bottom: 0;
         padding: 0 30px 0 30px;
         text-align: center;
+    }
+
+    .aeroport {
+        padding: 0 30px 0 30px;
     }
 }

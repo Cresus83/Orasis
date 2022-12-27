@@ -81,8 +81,7 @@
                             </li>
                         </ul>
                         <a href="#">
-                            <button class="btnCTA">comment s'inscrire ? <i class="fa fa-solid fa-chevron-right"></i>
-                            </button>
+                            <button class="btnCTA">comment s'inscrire ? <i class="fa fa-solid fa-chevron-right"></i></button>
                         </a>
                     </div>
                 </div>
@@ -134,8 +133,49 @@
                         </p>
                     </div>
                 </div>
-
             </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="title-section">
+                <h1>localisation du centre miléade</h1>
+            </div>
+            <div class="conference">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.6837725411965!2d6.090777715702567!3d43.090143196674056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9218a0e6f68e7%3A0x77c8a07f5a809fbd!2sVillage%20Club%20Mil%C3%A9ade%20Carqueiranne!5e0!3m2!1sfr!2sfr!4v1672174273040!5m2!1sfr!2sfr"
+                        width="100%" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="title-section">
+                <h1>adhésion afrif</h1>
+            </div>
+            <div class="conference">
+                <div class="afrif">
+                    <div class="title-afrif">
+                        <h2>qu'est-ce que l'afrif ?</h2>
+                    </div>
+                    <div class="afrif-text">
+                        <p>Pour nous faire reconnaître et être représentatifs au niveau des instances internationales, pour
+                        que la taille de l’association reflète celle de notre communauté scientifique, telle que nous la
+                            percevons par le nombre de soumissions à RFIA...</p>
+
+                        <a href="#"> <button class="btnmore">en savoir plus <i
+                                        class="fa fa-solid fa-chevron-right"></i></button></a>
+                    </div>
+                </div>
+                <a href="#">
+                    <button class="btnCTA2">adhérer à l'afrif<i class="fa fa-solid fa-chevron-right"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 <!-- Footer Import -->
 <?php include "assets/includes/footer.php" ?>
