@@ -51,6 +51,36 @@ if ($("body").data("title") === "js_index") {
     }
   };
 
+  //* JS POUR MODAL "A PROPOS"
+  // Id du modal général
+  let modalAbout = document.getElementById("modal_about");
+
+  // Button vue en semaine
+  let btnAbout = document.getElementById("about_btn");
+
+  // Bouton fermeture
+  let spanAbout = document.getElementsByClassName("close")[0];
+
+  // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
+  btnAbout.onclick = function () {
+    modalAbout.style.display = "block";
+    document.body.style.overflowY = "hidden";
+  };
+
+  // Sur le click, fermeture du modal
+  spanAbout.onclick = function () {
+    modalAbout.style.display = "none";
+    document.body.style.overflowY = "visible";
+  };
+
+  // Sur un click exterieur, fermeture du modal
+  window.onclick = function (event) {
+    if (event.target == modalAbout) {
+      modalAbout.style.display = "none";
+      document.body.style.overflowY = "visible";
+    }
+  };
+
   //* JS POUR CAROUSEL ACCUEIL
   $(".videos-carousel").owlCarousel({
     center: true,

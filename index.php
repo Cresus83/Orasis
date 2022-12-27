@@ -42,7 +42,8 @@
                         Elle sera organisée par l'équipe Signal et Image du Laboratoire d'Informatique et Systèmes
                         UMR7020,
                         au centre vacanciel Miléade à Carqueiranne.</p>
-                    <button class="btnmore">En savoir plus <i class="fa fa-solid fa-chevron-right"></i></button>
+                    <button id="about_btn" class="btnmore">En savoir plus <i
+                            class="fa fa-solid fa-chevron-right"></i></button>
                     <div class="about_icons">
                         <div class="intervenants">
                             <img src="./assets/img/mic.svg" alt="Micro">
@@ -60,6 +61,43 @@
                     <img class="about_img" src="./assets/img/about_us.svg" alt="A propos">
                 </div>
             </div>
+            <div class="modal" id="modal_about">
+                <div class="modal-content">
+                    <div class="btn_close">
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="about_title">
+                        <h3>QU’EST-CE QU’ORASIS 2023 ?</h3>
+                    </div>
+                    <div class="about_content">
+
+                        <div class="about_text">
+                            <p>La 19ième édition du colloque d’ORASIS, journées francophones des jeunes chercheurs en
+                                vision par ordinateur, se déroulera du 22 au 26 mai 2023 à Carqueiranne (Var,
+                                PACA).<br><br>
+                                Elle sera organisée par l'équipe Signal et Image du Laboratoire d'Informatique et
+                                Systèmes UMR7020, au centre vacanciel Miléade à Carqueiranne.<br><br>
+                                Ce colloque vise à réunir de jeunes chercheurs francophones (doctorants et jeunes
+                                docteurs) issus de la communauté de la vision par ordinateur ou de domaines connexes,
+                                avec l'ambition de favoriser, dans une ambiance conviviale, les échanges entre les
+                                participants, notamment entre les jeunes chercheurs et chercheurs expérimentés dans le
+                                domaine. </p>
+                            <br><span class="strong">Comment va se dérouler la conférence ?</span><br>
+                            <p>Les journées seront rythmées par des sessions plénières ainsi que des sessions posters,
+                                plusieurs sessions (7) de conférenciers invités complètent le déroulement de ces
+                                journées.<br><br>
+                                Les contributions doivent porter sur des travaux de recherche en lien avec la vision par
+                                ordinateur et le traitement d'images.<br><br>
+                                Elles peuvent concerner des domaines d'application comme la vision robotique, l'imagerie
+                                médicale et biologique, l'imagerie par satellite, le multimédia, la réalité virtuelle.
+                            </p>
+                        </div>
+                        <div class="about_img">
+                            <img class="img_about" src="./assets/img/plage_caquerainne.png" alt="Plage Caquerainne">
+                        </div>
+                    </div>
+
+                </div>
         </section>
 
         <!-- ======= Section Decouvrir Orasis ======= -->
