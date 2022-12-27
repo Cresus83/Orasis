@@ -384,6 +384,11 @@ td {
   }
   .register_container {
     padding: 8%;
+    border-radius: 0 0 10px 10px;
+  }
+  .input_text,
+  textarea {
+    font-size: 16px;
   }
 }
 
