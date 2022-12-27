@@ -323,16 +323,11 @@ li > a.active-nav::after {
     width: 100%;
   }
 
-  .navbar {
-    max-width: 72%;
-  }
-
   .navbar.collapsed .logo {
     width: 70%;
   }
 
   .navbar.collapsed ul.links {
     height: 100%;
-    max-width: 72%;
   }
 }
