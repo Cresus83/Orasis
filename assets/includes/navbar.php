@@ -10,6 +10,7 @@
         <li class="link_navbar"><a href="./activites.php">Activites</a></li>
         <li class="link_navbar"><a href="./intervenants.php">Intervenants</a></li>
         <li class="link_navbar"><a href="./informations.php">Informations</a></li>
+        <li class="link_navbar"><a href="./contact.php">Contact</a></li>
         <div class="bottom">
             <a href="#">Connexion</a>
             <a href="#">Inscription</a>
@@ -20,8 +21,8 @@
     <div class="right dropdown">
         <button class="probtn"><i class="fa fa-solid fa-user"></i>ESPACE CLIENTS</button>
         <div class="dropdown-content">
-            <a href="#">Connexion</a>
-            <a href="#">Inscription</a>
+            <a href="login.php">Connexion</a>
+            <a href="inscription.php">Inscription</a>
         </div>
     </div>
 

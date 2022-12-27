@@ -9,7 +9,7 @@ body {
 .card {
   width: 1000px;
   margin: auto;
-  background: no-repeat center url("../img/conference.webp");
+
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -384,6 +384,11 @@ td {
   }
   .register_container {
     padding: 8%;
+    border-radius: 0 0 10px 10px;
+  }
+  .input_text,
+  textarea {
+    font-size: 16px;
   }
 }
 
@@ -407,40 +412,95 @@ td {
   .card {
     background: no-repeat center url("../img/conference.webp");
     background-size: cover;
+    display: flex;
+    flex-direction: row;
     width: 1000px;
   }
   .help {
     font-size: 16px;
+    text-align: left;
   }
-  input {
+  .input_text {
     font-size: 18px;
   }
+  .input_personnelle,
+  .input_identifiant {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .input_personnelle input,
+  .input_identifiant input {
+    max-width: 45%;
+    text-align: left;
+  }
+  .alone {
+    max-width: 45%;
+    text-align: left;
+    margin: unset;
+  }
+  .mr {
+    margin-right: 5%;
+  }
+
   .form_container {
-    border-radius: 0px;
+    border-radius: unset;
   }
   section {
-    padding: 5% 0 0 5%;
+    padding: 90px 0;
+  }
+  .reg_btn {
+    margin-bottom: 7%;
   }
   .content_text {
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
   }
   .more_text {
-    max-width: 100%;
+    max-width: 50%;
     font-size: 16px;
   }
 
   table {
     width: 70%;
-    margin-left: 7%;
+    margin-left: 5%;
   }
   .modal-content {
-    width: 85%;
-    height: 81%;
+    height: 85%;
     overflow-y: hidden;
   }
   .close {
-    margin-left: -10px;
+    margin-left: -15px;
+  }
+  .important_zone {
+    width: 50%;
+
+    height: 83.5vh;
+  }
+  .important_zone img {
+    display: block;
+  }
+  .important_zone p {
+    font-size: 20px;
+  }
+  .important_zone button {
+    font-size: 18px;
+    margin-top: 5%;
+  }
+  .label_form {
+    text-align: left;
+  }
+  .title_form {
+    justify-content: flex-start;
+  }
+  .title_form h3 {
+    font-size: 30px;
+  }
+  .register_container {
+    padding: 5%;
   }
 }
 @media (min-width: 1025px) {
