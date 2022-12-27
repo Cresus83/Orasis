@@ -34,7 +34,7 @@ body {
   background-color: white;
   padding: 0 5%;
 }
-form {
+.form_container form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,11 +42,11 @@ form {
   flex-direction: column;
 }
 
-form div {
+.form_container form div {
   width: 100%;
 }
 
-form div i {
+.form_container form div i {
   position: absolute;
   right: 10%;
   margin-top: 2%;
@@ -118,6 +118,7 @@ input[type="submit"]:hover {
 .bandeau {
   display: none;
 }
+
 @media (min-width: 320px) {
   .left_img {
     display: none;
