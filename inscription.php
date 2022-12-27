@@ -25,7 +25,7 @@
                         <input class="input_text " type="password" name="prenom" placeholder="Prénom"><input
                             class="input_text " type="password" name="adresse" placeholder="Adresse email">
                     </div>
-                    <span class="label_form">Informations de connexion</span>
+                    <span class="label_form">Informations de connexion</span><br>
                     <input class="input_text alone" type="text" name="login" placeholder="Identifiant">
                     <div class="input_identifiant">
 
