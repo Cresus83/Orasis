@@ -77,6 +77,8 @@
                             </tr>
 
                         </table>
+                        <p class="remarque">Pour soumettre votre article, veuillez vous référez aux instructions <a
+                                href="articles.php"> ici</a>.</p>
                     </div>
 
                     <!-- Section "MON INSCRIPTION" -->
