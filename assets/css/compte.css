@@ -31,7 +31,7 @@
   color: #01567a;
 }
 
-li::after {
+.vertical_nav li::after {
   content: "";
   display: block;
   height: 3px;
@@ -41,12 +41,12 @@ li::after {
   transition: all 0.3s;
 }
 
-li:hover::after,
-li.vertical_active::after {
+.vertical_nav li:hover::after,
+.vertical_nav li.vertical_active::after {
   width: 60%;
   background: #01567a;
 }
-li.vertical_active {
+.vertical_nav li.vertical_active {
   color: #01567a;
 }
 
@@ -83,7 +83,7 @@ li.vertical_active {
   font-weight: 700;
   font-size: 28px;
   line-height: 60px;
-
+  text-transform: uppercase;
   color: #01567a;
 }
 
@@ -182,35 +182,222 @@ input:disabled {
   font-size: 18px;
   color: black;
   border-bottom: 1px solid black;
+  width: 20%;
+  text-align: left;
 }
 
 .table_deposit td {
   font-size: 16px;
   color: #01567a;
+  padding-left: 2%;
+  font-weight: 500;
+  padding: 2%;
 }
 
 .table_deposit tr.line {
   background-color: #ffffff;
   box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
-
+  margin-bottom: 5%;
   padding: 2%;
+  border-bottom: 1px solid black;
 }
 
-tr:first-child td:first-child {
-  border-top-left-radius: 10px;
+.checking {
+  color: #cf6300 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-tr:first-child td:last-child {
-  border-top-right-radius: 10px;
+.validate {
+  color: #0a7e00 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-
-tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
-}
-tr:last-child td:last-child {
-  border-bottom-right-radius: 10px;
+.refused {
+  color: #a30000 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 /* Section MON INSCRIPTION */
+.inscription_card {
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.inscription_card h4 {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.inscription_card h4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 20%;
+  top: 5px;
+  background: #0d5e80;
+  transition: all 0.3s;
+}
+
+.double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.progress {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.text {
+  width: 50%;
+  padding-top: 5%;
+}
+.text p {
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-weight: 400;
+  text-transform: none;
+}
+.strong {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.finalised,
+.currently {
+  display: flex;
+  align-items: center;
+}
+.finalised p,
+.currently p {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin-left: 10px;
+}
+
+.currently:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #e19e60;
+}
+
+.finalised:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #1d71bb;
+}
+
+.remarque {
+  margin-top: 5%;
+  font-style: italic;
+}
+.steps {
+  --theme-color: #ccc;
+  --line-min-height: 50px;
+  --icon-size: 35px;
+  padding-top: 10%;
+}
+.steps__item--complete {
+  --theme-color: #1d71bb;
+  list-style: none;
+  padding: 0;
+}
+.steps__item--complete .steps__label:after {
+  width: 4px;
+  height: 8px;
+  border-radius: 0;
+  background: transparent;
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  transform: rotate(30deg) translateY(-50%);
+  top: 44%;
+  left: 12px;
+}
+
+.steps__item--complete .steps__label {
+  color: #1d71bb;
+}
+.steps__item--current .steps__label:before,
+.steps__item--current .steps__label {
+  --theme-color: #e19e60;
+  color: #e19e60;
+}
+.steps__item {
+  display: flex;
+  flex-direction: column;
+}
+.steps__label {
+  position: relative;
+  padding-left: calc(var(--icon-size) + 4px);
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #000000;
+  max-width: 80%;
+}
+.steps__label:before,
+.steps__label:after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.steps__label:before {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  border-radius: 50%;
+  background-color: var(--theme-color);
+}
+.steps__label:after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  left: 13px;
+}
+.steps__space {
+  position: relative;
+  margin-left: calc(var(--icon-size) / 2);
+  flex: 1 0 var(--line-min-height);
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.steps__space:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: var(--theme-color);
+}
+
+/* Section Mobile */
 .mobile_nav {
   display: none;
 }
@@ -219,6 +406,7 @@ tr:last-child td:last-child {
   display: none;
 }
 @media (min-width: 320px) {
+  /* RESPONSIVE MON COMPTE */
   .account_form {
     padding-top: 15%;
   }
@@ -292,11 +480,40 @@ tr:last-child td:last-child {
     vertical-align: middle;
     fill: #0d5e80;
   }
+
+  /*Responsive DEPOTS*/
+  .table_deposit {
+    margin-top: 30%;
+  }
+  .table_deposit TH {
+    text-align: center;
+  }
+  .table_deposit td {
+    font-size: 14px;
+  }
+  /* RESPONSIVE MON INSCRIPTION */
+  .double {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    padding: 8%;
+  }
+  .inscription_card h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .inscription_card h4:after {
+    left: 40%;
+    position: relative;
+  }
 }
 
 @media (min-width: 481px) {
 }
 @media (min-width: 641px) {
+  /* RESPONSIVE MON COMPTE */
   .account_form {
     padding-top: unset;
   }
@@ -345,6 +562,27 @@ tr:last-child td:last-child {
   .mobile_nav {
     display: none;
   }
+  /* RESPONSIVE INSCRIPTION */
+  .double {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .text {
+    width: 50%;
+    padding: 5% 0 0 0;
+  }
+  .inscription_card h4 {
+    text-align: left;
+    font-size: 19px;
+  }
+  .inscription_card h4:after {
+    left: 0;
+    position: unset;
+  }
+  .container {
+    padding-left: 35%;
+    padding-right: 5%;
+  }
 }
 @media (min-width: 961px) {
 }
@@ -355,6 +593,25 @@ tr:last-child td:last-child {
   }
   .container {
     padding-left: 30%;
+  }
+
+  .inscription_card h4 {
+    text-align: left;
+    font-size: 22px;
+  }
+  .container {
+    padding-right: 10%;
+  }
+
+  /*Responsive DEPOTS*/
+  .table_deposit {
+    margin-top: 10%;
+  }
+  .table_deposit TH {
+    text-align: left;
+  }
+  .table_deposit td {
+    font-size: 16px;
   }
 }
 @media (min-width: 1281px) {
