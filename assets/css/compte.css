@@ -1,0 +1,361 @@
+@import "template.css";
+
+.container {
+  padding: 6% 10% 0 30%;
+}
+.vertical_nav {
+  width: 20%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 0;
+  top: 5%;
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.vertical_nav ul li {
+  font-size: 24px;
+  list-style: none;
+  text-transform: uppercase;
+  margin-bottom: 30%;
+  cursor: pointer;
+}
+
+.vertical_nav ul li:hover {
+  color: #01567a;
+}
+
+li::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+li:hover::after,
+li.vertical_active::after {
+  width: 60%;
+  background: #01567a;
+}
+li.vertical_active {
+  color: #01567a;
+}
+
+.welcome_message {
+  font-size: 20px;
+  margin-bottom: 20%;
+}
+
+/* Section MON COMPTE */
+.blue_bold {
+  font-weight: 600;
+  color: #01567a;
+  font-size: 28px;
+}
+.inscription_date p {
+  background: #ffffff;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 2% 4%;
+  width: 90%;
+  text-align: center;
+}
+
+.inscription_date span {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 42px;
+  text-align: center;
+  color: #01567a;
+}
+
+.gestion h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+
+  color: #01567a;
+}
+
+.title_form {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  color: black;
+}
+
+.personal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input {
+  border: 2px solid #0d5e80;
+  border-radius: 30px;
+  padding: 1% 3%;
+}
+
+.logging input {
+  width: 45%;
+  font-size: 18px;
+}
+input:disabled {
+  cursor: not-allowed;
+  background: #e5dcdc;
+}
+.personal input {
+  width: 45%;
+
+  color: black;
+  font-size: 18px;
+}
+.mr {
+  margin-right: 5%;
+}
+.mt {
+  margin-top: 5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn p {
+  font-size: 16px;
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.btn p a {
+  color: #01567a;
+  font-style: italic;
+}
+.validation_pw {
+  background: #01567a;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 1% 6%;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  border: none;
+  cursor: pointer;
+}
+
+.validation_pw i {
+  position: relative;
+  left: 7%;
+}
+
+.validation_pw:hover {
+  background-color: #004664;
+  transition: 1s;
+}
+
+/* Section MES DEPOTS */
+
+.table_deposit {
+  background-color: transparent;
+  border: none;
+  border-collapse: collapse;
+}
+
+.table_deposit th {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.table_deposit td {
+  font-size: 16px;
+  color: #01567a;
+}
+
+.table_deposit tr.line {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
+
+  padding: 2%;
+}
+
+tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* Section MON INSCRIPTION */
+.mobile_nav {
+  display: none;
+}
+#footer,
+.bandeau {
+  display: none;
+}
+@media (min-width: 320px) {
+  .account_form {
+    padding-top: 15%;
+  }
+  .vertical_nav {
+    display: none;
+  }
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .personal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .personal input {
+    width: 90%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .mt,
+  .mr {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .logging {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logging input {
+    width: 90%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .validation_pw {
+    font-size: 16px;
+  }
+  .validation_pw i {
+    left: 3%;
+  }
+  .btn p {
+    line-height: 30px;
+    margin-top: 10%;
+  }
+  .content_account {
+    text-align: center;
+  }
+  .mobile_nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .mobile_nav button {
+    width: 45%;
+    border: 2px solid #0d5e80;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 1% 3%;
+    text-transform: uppercase;
+  }
+  .mobile_nav button i {
+    position: relative;
+    font-size: 1.2em;
+  }
+  .mobile_nav button .fa-angle-left {
+    right: 5%;
+    vertical-align: middle;
+    fill: #0d5e80;
+  }
+  .mobile_nav button .fa-angle-right {
+    left: 5%;
+    vertical-align: middle;
+    fill: #0d5e80;
+  }
+}
+
+@media (min-width: 481px) {
+}
+@media (min-width: 641px) {
+  .account_form {
+    padding-top: unset;
+  }
+  .vertical_nav {
+    display: flex;
+    width: 30%;
+  }
+  .container {
+    padding-left: 40%;
+  }
+  .personal {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .personal input {
+    width: 45%;
+    margin-bottom: unset;
+    text-align: left;
+  }
+  .mt {
+    margin-top: 5%;
+  }
+  .mr {
+    margin-right: 5%;
+  }
+  .logging {
+    display: block;
+  }
+  .logging input {
+    width: 45%;
+    text-align: left;
+  }
+  .validation_pw {
+    font-size: 18px;
+  }
+  .validation_pw i {
+    left: 7%;
+  }
+  .btn p {
+    line-height: unset;
+    margin-top: unset;
+  }
+  .content_account {
+    text-align: left;
+  }
+  .mobile_nav {
+    display: none;
+  }
+}
+@media (min-width: 961px) {
+}
+@media (min-width: 1025px) {
+  .vertical_nav {
+    display: flex;
+    width: 20%;
+  }
+  .container {
+    padding-left: 30%;
+  }
+}
+@media (min-width: 1281px) {
+}
