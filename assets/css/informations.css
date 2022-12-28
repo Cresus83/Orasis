@@ -177,19 +177,13 @@
 .title-afrif {
     background-color: #01567A;
     width: 100%;
-    padding: 10px 10px 10px 30px;
     border-radius: 10px 10px 0 0;
-
 }
 
 .title-afrif h2 {
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
-}
-
-.afrif-text p {
-    padding: 30px;
 }
 
 .btnmore {
@@ -274,7 +268,7 @@
 
     .aeroport {
         width: 100%;
-        padding: 30px;
+        padding: 20px 10px 20px 10px;
     }
 
     .app-download {
@@ -329,6 +323,18 @@
     .bloc-text {
         padding: 20px 10px 20px 10px;
         font-size: 16px;
+    }
+    .title-afrif h2 {
+        font-size: 22px;
+    }
+
+    .afrif-text p {
+        padding: 20px 10px 20px 10px;
+        font-size: 16px;
+    }
+
+    .title-afrif {
+        padding: 10px;
     }
 }
 
@@ -434,5 +440,16 @@
         margin: 2% 3%;
         font-size: 20px;
         float: right;
+    }
+    .title-afrif h2 {
+        font-size: 27px;
+    }
+
+    .afrif-text p {
+        padding: 30px;
+    }
+
+    .title-afrif {
+        padding: 10px 10px 10px 30px;
     }
 }
