@@ -74,17 +74,18 @@ section {
   /* smartphones, iPhone, portrait 480x320 phones */
   .title h2 {
     /*Bluetitle*/
-    font-size: 27px;
+    font-size: 21px;
   }
 
   .title span {
     /*Greytitle*/
-    font-size: 21px;
+    font-size: 27px;
+
   }
   .container {
     /* On ajoute une marge sur les cotés de l’écran */
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -105,7 +106,7 @@ section {
   /* big landscape tablets, laptops, and desktops */
   .container {
     /* On ajoute une marge sur les cotés de l’écran */
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 120px;
+    padding-left: 120px;
   }
 }
