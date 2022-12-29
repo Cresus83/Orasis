@@ -94,6 +94,19 @@ li > a.active-nav::after {
   cursor: pointer;
 }
 
+.decobtn {
+  height: 65px;
+  padding: 0 15px;
+  background-color: #920000;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+
+.decobtn:hover {
+  cursor: pointer;
+  background-color: #7a0101;
+}
 .content {
   background: url("https://images.unsplash.com/photo-1563733758230-a5d441824696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
     no-repeat;

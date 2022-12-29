@@ -17,13 +17,23 @@
         </div>
     </ul>
 
-
     <div class="right dropdown">
-        <button class="probtn"><i class="fa fa-solid fa-user"></i>ESPACE CLIENTS</button>
-        <div class="dropdown-content">
-            <a href="login.php">Connexion</a>
-            <a href="inscription.php">Inscription</a>
-        </div>
+        <?php
+        //* Script pour afficher le bouton déconnexion si une session est ouverte
+        if (session_status() === PHP_SESSION_ACTIVE) {
+            $btn = "";
+            $btn = "<a href='./assets/includes/deconnexion.php'><button class='decobtn'><i class='fas fa-sign-out-alt'></i>SE DECONNECTER</button></a>";
+        } else {
+            $btn = "";
+            $btn = "<button class='probtn'><i class='fa fa-solid fa-user'></i>ESPACE CLIENTS</button>
+            
+            <div class='dropdown-content'>
+            <a href='login.php'>Connexion</a>
+            <a href='inscription.php'>Inscription</a>
+        </div>";
+        }
+
+        echo $btn; ?>
     </div>
 
 
@@ -32,6 +42,8 @@
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
+
+
 
 
 </div>
