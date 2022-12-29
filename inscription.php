@@ -8,7 +8,7 @@
 <body>
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
-
+    <?php include "assets/sql/add_user.php";?>
     <!-- Section LOGIN -->
     <section>
         <div class="card register">
@@ -17,28 +17,31 @@
                     <img src="assets/img/gif/checklist.gif" alt="GIF checklist">
                     <h3>Inscription</h3>
                 </div>
-                <form>
+                <form method="post" action="#">
                     <span class="label_form">Informations personnelles</span>
                     <div class="input_personnelle">
-                        <input class="input_text mr" type="text" name="nom" placeholder="Nom">
+                        <input class="input_text mr" type="text" name="nom" placeholder="Nom" required>
 
-                        <input class="input_text " type="password" name="prenom" placeholder="Prénom"><input
-                            class="input_text " type="password" name="adresse" placeholder="Adresse email">
+                        <input class="input_text " type="text" name="prenom" placeholder="Prénom" required><input
+                            class="input_text " type="email" name="adresse" placeholder="Adresse email" required>
                     </div>
                     <span class="label_form">Informations de connexion</span><br>
-                    <input class="input_text alone" type="text" name="login" placeholder="Identifiant">
+                    <input class="input_text alone" type="text" name="login" placeholder="Identifiant" required>
                     <div class="input_identifiant">
 
-                        <input class="input_text mr" type="password" name="pass" placeholder="Mot de passe"><input
-                            class="input_text " type="password" name="verify_pass"
-                            placeholder="Resaisir le mot de passe">
+                        <input class="input_text mr" type="password" name="pass" placeholder="Mot de passe"
+                            required><input class="input_text " type="password" name="verify_pass"
+                            placeholder="Resaisir le mot de passe" required>
                     </div>
-                    <input type="submit" name="valider" value="Se connecter">
-                    <a href="inscription.php" class="reg_btn">Inscription</a>
+                    <?php echo $messageValid;?>
+                    <input type="submit" name="valider" value="S'inscrire">
+                    <a href="connexion.php" class="reg_btn">Déjà inscrit ?</a>
                     <a href="contact.php" class="help">Un problème de connexion ?</a>
                 </form>
 
             </div>
+
+
             <div class="important_zone">
                 <img src="assets/img/gif/warning.gif" alt="GIF Warning">
                 <p>LA PARTICIPATION À LA CONFÉRENCE EST SOUMISE À DES CONDITIONS</p><br>
