@@ -14,6 +14,7 @@
 // lance les classes de PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
 if (isset($validerBtn)) {
 // chemin du dossier PHPMailer % fichier d'envoi du mail
 require 'PHPMailer/src/Exception.php';
