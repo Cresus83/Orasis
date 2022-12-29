@@ -213,6 +213,10 @@ li > a.active-nav::after {
 }
 
 @media screen and (max-width: 750px) {
+  html, body {
+    overflow-x:hidden;
+  }
+
   .navbar .right {
     height: 0;
     overflow: hidden;
