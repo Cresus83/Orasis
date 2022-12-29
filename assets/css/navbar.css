@@ -238,13 +238,13 @@ li > a.active-nav::after {
     margin: 3px 0;
   }
   .navbar.collapsed .toggle .line1 {
-    transform: rotate(-45deg) translate(-4px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
   }
   .navbar.collapsed .toggle .line2 {
     opacity: 0;
   }
   .navbar.collapsed .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
   }
   .navbar.collapsed .logo {
     position: absolute;
