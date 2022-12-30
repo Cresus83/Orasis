@@ -1,9 +1,33 @@
+<?php
+session_start();
+   ?>
 <!doctype html>
 <html lang="fr">
 
 <link href="assets/css/articles.css" rel="stylesheet">
 <title>ORASIS 2023 | Articles</title>
-<?php include "assets/includes/header.php" ?>
+<?php include "assets/includes/header.php";
+
+//* Script pour afficher le bouton redirection du formulaire si non connecté
+if (isset($_SESSION['status']) == "Valide") {
+    
+    $style="";
+    $style = "<style>.redirect {
+        display:none;
+       }</style>";
+} else {
+
+$style="";
+$style = "<style>
+
+.redirect {
+    display:block;
+   }
+   
+   .submit {display:none;}</style>";
+}
+echo $style; ?>
+
 
 <body data-title="js_articles">
     <!-- Navbar Import -->
@@ -88,15 +112,18 @@
                     droite de même taille).
                     <br><br>
                     <span class="important_text">
-                        Remarque : Les instructions ci-dessus sont reprises des précédentes éditions.</span>
+                        Remarque : pour soumettre un article, il vous faut au préalable être connecté.</span>
 
                     </p>
                 </div>
             </div>
 
         </section>
+
         <section>
             <div class="container form_article">
+
+
                 <p class="important_text centered">Avant de soumettre un article, veuillez vous référer aux instructions
                     ci-dessus, dans le cas contraire, votre soumission d’article sera refusée.</p>
 
@@ -135,6 +162,9 @@
 
                     </div>
                     <input class="submit" type="submit" value="Soumettre votre article"></input>
+                    <div class="redirect"><a href="login.php"><button type="button">Veuillez vous connectez pour
+                                soumettre un
+                                article.</button></a></div>
                 </form>
 
             </div>

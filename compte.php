@@ -13,19 +13,21 @@ session_start();
 <title>ORASIS 2023 | Espace Perso</title>
 <?php include "assets/includes/header.php" ?>
 
-<body>
+<body data-title="js_compte">
     <?php include "assets/includes/navbar.php" ?>
+    <?php include "assets/sql/mdp_modify.php" ?>
     <section>
         <div class="vertical_nav">
-            <p class="welcome_message"><span class="blue_bold">Bonjour,</span><br>M. Doe !</p>
+            <p class="welcome_message"><span class="blue_bold">Bonjour,</span><br><?php echo $_SESSION['nom'];?>
+            </p>
             <ul class="vertical_links">
-                <li class="vertical_active">Mon compte</li>
-                <li>Mes dépôts</li>
-                <li>Mon inscription</li>
+                <li class="v_link vertical_active" data-btncat="compte">Mon compte</li>
+                <li class="v_link" data-btncat="depot">Mes dépôts</li>
+                <li class="v_link" data-btncat="inscription">Mon inscription</li>
             </ul>
             <div class="inscription_date">
                 <span>Inscrit depuis le :</span>
-                <p>JJ/MM/AA</p>
+                <p><?php echo $_SESSION['date_inscrip'];?></p>
             </div>
         </div>
         <div class="container">
@@ -37,7 +39,7 @@ session_start();
                         <button>Mon inscription <i class="fa fa-solid fa-angle-right"></i></button>
                     </div>
                     <!-- Section "MON COMPTE" -->
-                    <form class="account_form" style="display: none;">
+                    <form class="account_form categ compte" data-categorie="compte" method="post" action="#">
                         <h3>Mon compte</h3>
                         <span class="title_form">Informations personnelles</span>
                         <div class="personal">
@@ -48,10 +50,12 @@ session_start();
                         <span class="title_form">Informations de connexion</span>
                         <div class="logging">
                             <input type="text" name="identifiant" class="mr" disabled value="Identifiant">
-                            <input type="password" name="pass" value="" placeholder="Mot de passe">
+                            <input type="password" name="old_pass" value="" placeholder="Ancien mot de passe" required>
+                            <input type="password" name="new_pass" value="" placeholder="Nouveau mot de passe" required>
                         </div>
                         <div class="btn">
-                            <button class="validation_pw">Changer le mot de passe <i
+                            <?php echo $error_msg;?>
+                            <button type="submit" name="valider" class="validation_pw">Changer le mot de passe <i
                                     class="fa fa-solid fa-lock"></i></button>
                             <p>Si vous souhaitez modifier vos informations personnelles, <a href="contact.php">veuillez
                                     nous
@@ -59,7 +63,7 @@ session_start();
                         </div>
                     </form>
                     <!-- Section "MES DEPOTS" -->
-                    <div class="deposit">
+                    <div class="deposit categ depot" data-categorie="depot">
                         <h3>Mes dépôts</h3>
                         <table class="table_deposit">
                             <tr>
@@ -90,7 +94,7 @@ session_start();
                     </div>
 
                     <!-- Section "MON INSCRIPTION" -->
-                    <div class="inscription" style="display:none">
+                    <div class="inscription categ inscription" data-categorie="inscription">
                         <h3>Mon inscription</h3>
                         <div class="inscription_card">
                             <h4>Statut de l’inscription en tant que participant/auteur</h4>

@@ -310,6 +310,11 @@ input:disabled {
   margin-top: 5%;
   font-style: italic;
 }
+
+.depot,
+.inscription {
+  display: none;
+}
 .steps {
   --theme-color: #ccc;
   --line-min-height: 50px;

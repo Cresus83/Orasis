@@ -536,3 +536,36 @@ if ($("body").data("title") === "js_programme") {
     dp.update();
   }
 }
+
+//* PAGE COMPTE PERSO
+if ($("body").data("title") === "js_compte") {
+  /*
+  let btnInfos = document.getElementById("compte");
+  let btnDepots = document.getElementById("depots");
+  let btnInscrip = document.getElementById("inscription");
+
+  btnInfos.addEventListener("click", function () {
+    btnInfos.style.display = "block";
+    btnInfos.classList.add("vertical_active");
+    btnDepots.classList.remove("vertical_active");
+    btnInscrip.classList.remove("vertical_active");
+  });*/
+
+  // Button Randonnée
+  let btnVertical = document.querySelectorAll(".v_link");
+  let containerCat = document.querySelectorAll(".categ");
+
+  for (let i = 0; i < btnVertical.length; i++) {
+    // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
+    btnVertical[i].onclick = function () {
+      if (
+        btnVertical[i].dataset["btncat"] == containerCat[i].dataset["categorie"]
+      ) {
+        $(".v_link").removeClass("vertical_active");
+        $(".categ").hide();
+        btnVertical[i].classList.add("vertical_active");
+        containerCat[i].style.display = "block";
+      }
+    };
+  }
+}

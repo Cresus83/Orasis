@@ -1,3 +1,6 @@
+<?php
+session_start();
+   ?>
 <!doctype html>
 <html lang="fr">
 
@@ -427,8 +430,9 @@
                         Vous aurez aussi l’occasion de présenter votre article* à la conférence.
 
                     </p>
-                    <button class="registerbtn">Inscription <i class="fa fa-solid fa-chevron-right"></i></button>
-                    <a href="#">Instruction pour les soummisions d'articles</a>
+                    <a href="inscription.php"><button class="registerbtn">Inscription <i
+                                class="fa fa-solid fa-chevron-right"></i></button></a>
+                    <a href="articles.php">Instruction pour les soummisions d'articles</a>
                     <p class="remarques2">*Pour obtenir l’accès à la soumission d’article, il vous faut au préalable
                         créer un
                         compte

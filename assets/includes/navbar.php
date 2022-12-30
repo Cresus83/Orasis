@@ -12,17 +12,19 @@
         <li class="link_navbar"><a href="./informations.php">Informations</a></li>
         <li class="link_navbar"><a href="./contact.php">Contact</a></li>
         <div class="bottom">
-            <a href="#">Connexion</a>
-            <a href="#">Inscription</a>
+            <a href="login.php">Connexion</a>
+            <a href="inscription.php">Inscription</a>
         </div>
     </ul>
 
     <div class="right dropdown">
         <?php
+       
         //* Script pour afficher le bouton déconnexion si une session est ouverte
-        if (session_status() === PHP_SESSION_ACTIVE) {
+        if (isset($_SESSION['autoriser']) == 'oui') {
             $btn = "";
             $btn = "<a href='./assets/includes/deconnexion.php'><button class='decobtn'><i class='fas fa-sign-out-alt'></i>SE DECONNECTER</button></a>";
+
         } else {
             $btn = "";
             $btn = "<button class='probtn'><i class='fa fa-solid fa-user'></i>ESPACE CLIENTS</button>
@@ -32,7 +34,6 @@
             <a href='inscription.php'>Inscription</a>
         </div>";
         }
-
         echo $btn; ?>
     </div>
 

@@ -15,7 +15,9 @@ if(isset($valider)){
     if(count($tab)>0 ){
         session_start();
         $_SESSION['autoriser'] = 'oui'; 
-        $_SESSION['login'] = $tab[0]["nom_user"]; 
+        $_SESSION['nom'] = $tab[0]["nom_user"]; 
+        $_SESSION['status'] = $tab[0]["statut_user"]; 
+        $_SESSION['date_inscrip'] = $tab[0]["date_inscription"]; 
         header("Location:compte.php");
     }
     else
