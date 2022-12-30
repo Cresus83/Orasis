@@ -695,10 +695,6 @@
         width: 250px;
     }
 
-    .about_img {
-        display: none;
-    }
-
     .about_text p {
         text-align: center;
         font-size: 14px;
@@ -754,6 +750,7 @@
     .about_img {
         width: 80%;
         display: flex;
+        margin: auto;
     }
 
     .bot-img img {
@@ -767,10 +764,6 @@
     .owl-item iframe {
         width: 310px;
         height: 250px;
-    }
-
-    .about_img {
-        display: none;
     }
 }
 
