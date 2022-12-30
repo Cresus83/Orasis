@@ -71,7 +71,7 @@
                     </div>
                     <div class="about_content">
 
-                        <div class="about_text">
+                        <div class="about_text2">
                             <p>La 19ième édition du colloque d’ORASIS, journées francophones des jeunes chercheurs en
                                 vision par ordinateur, se déroulera du 22 au 26 mai 2023 à Carqueiranne (Var,
                                 PACA).<br><br>
@@ -92,8 +92,8 @@
                                 médicale et biologique, l'imagerie par satellite, le multimédia, la réalité virtuelle.
                             </p>
                         </div>
-                        <div class="about_img">
-                            <img class="img_about" src="./assets/img/plage_caquerainne.png" alt="Plage Caquerainne">
+                        <div class="about_img2">
+                            <img src="./assets/img/plage_caquerainne.png" alt="Plage Caquerainne">
                         </div>
                     </div>
 
