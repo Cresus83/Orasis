@@ -536,3 +536,65 @@ if ($("body").data("title") === "js_programme") {
     dp.update();
   }
 }
+
+//* PAGE COMPTE PERSO
+if ($("body").data("title") === "js_compte") {
+  // Button Randonnée
+  let btnVertical = document.querySelectorAll(".v_link");
+  let containerCat = document.querySelectorAll(".categ");
+
+  console.log(btnVertical);
+  console.log(containerCat);
+  for (let i = 0; i < btnVertical.length; i++) {
+    // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
+    btnVertical[i].onclick = function () {
+      if (
+        btnVertical[i].dataset["btncat"] == containerCat[i].dataset["categorie"]
+      ) {
+        $(".v_link").removeClass("vertical_active");
+        $(".categ").hide();
+        btnVertical[i].classList.add("vertical_active");
+        containerCat[i].style.display = "block";
+      }
+    };
+  }
+
+  //* JS POUR MODIFICATION MODAL
+  function ReAssign(name, prenom, email) {
+    document.getElementById("new_nom").value = name;
+    document.getElementById("new_prenom").value = prenom;
+    document.getElementById("new_email").value = email;
+    document.getElementById("modal").style.display = "block";
+
+    // Bouton fermeture
+    let spanModif = document.getElementsByClassName("close")[0];
+
+    // Sur le click, fermeture du modal
+    spanModif.onclick = function () {
+      document.getElementById("modal").style.display = "none";
+    };
+  }
+
+  //* JS POUR FILTRE
+  function searchByname() {
+    // Declare variables
+    let input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("filter_input");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("table");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+}
