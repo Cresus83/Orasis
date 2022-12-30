@@ -16,8 +16,12 @@ if(isset($valider)){
         session_start();
         $_SESSION['autoriser'] = 'oui'; 
         $_SESSION['nom'] = $tab[0]["nom_user"]; 
-        $_SESSION['status'] = $tab[0]["statut_user"]; 
+        $_SESSION['prenom'] = $tab[0]["prenom_user"]; 
+        $_SESSION['status'] = $tab[0]["statut_user"];
+        $_SESSION['mail'] = $tab[0]["email_user"];
+        $_SESSION['login'] = $tab[0]["identifiant_user"]; 
         $_SESSION['date_inscrip'] = $tab[0]["date_inscription"]; 
+        $_SESSION['role'] = $tab[0]["role_user"]; 
         header("Location:compte.php");
     }
     else

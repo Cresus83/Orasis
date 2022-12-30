@@ -28,7 +28,7 @@ CREATE TABLE utilisateurs(
 CREATE TABLE Articles(
         id_article      Int NOT NULL AUTO_INCREMENT,
         titre_article   Varchar (60) NOT NULL ,
-        resumer_article Varchar (60) NOT NULL ,
+        resumer_article Varchar (280) NOT NULL ,
         fichier_article Varchar (256) NOT NULL ,
         date_soumission Date NOT NULL
 	,CONSTRAINT Articles_PK PRIMARY KEY (id_article)

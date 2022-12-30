@@ -1,5 +1,74 @@
 @import "template.css";
 
+/* The Modal (background) */
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  width: 40%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.modal-content form {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.modal-content form input,
+.modal-content form select {
+  margin-bottom: 2%;
+  width: 40%;
+  text-align: center;
+}
+
+.modal-content h3 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+/* The Close Button */
+
+.close {
+  transition: all 0.5s ease;
+  position: relative;
+  background-color: #0d5e80;
+  padding: 1.5px 9px;
+  left: 0;
+  float: right;
+  z-index: 10;
+  cursor: pointer;
+  margin-left: -10px;
+  margin-top: -9px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  color: white;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.close:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
 .container {
   padding: 6% 10% 0 30%;
 }
@@ -100,7 +169,8 @@
   flex-wrap: wrap;
 }
 
-input {
+input,
+select {
   border: 2px solid #0d5e80;
   border-radius: 30px;
   padding: 1% 3%;
@@ -171,13 +241,15 @@ input:disabled {
 
 /* Section MES DEPOTS */
 
-.table_deposit {
+.table_deposit,
+.table_adherent {
   background-color: transparent;
   border: none;
   border-collapse: collapse;
 }
 
-.table_deposit th {
+.table_deposit th,
+.table_adherent th {
   font-weight: 400;
   font-size: 18px;
   color: black;
@@ -186,7 +258,8 @@ input:disabled {
   text-align: left;
 }
 
-.table_deposit td {
+.table_deposit td,
+.table_adherent td {
   font-size: 16px;
   color: #01567a;
   padding-left: 2%;
@@ -194,12 +267,22 @@ input:disabled {
   padding: 2%;
 }
 
-.table_deposit tr.line {
+.table_deposit tr.line,
+.table_adherent tr.line {
   background-color: #ffffff;
   box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.25);
   margin-bottom: 5%;
   padding: 2%;
   border-bottom: 1px solid black;
+}
+
+.table_adherent tr {
+  cursor: pointer;
+}
+
+.table_adherent tr:hover {
+  background-color: #e5dcdc;
+  transition: 1s;
 }
 
 .checking {
@@ -312,7 +395,8 @@ input:disabled {
 }
 
 .depot,
-.inscription {
+.inscription,
+.admin_depot {
   display: none;
 }
 .steps {
@@ -487,13 +571,16 @@ input:disabled {
   }
 
   /*Responsive DEPOTS*/
-  .table_deposit {
+  .table_deposit,
+  .table_adherent {
     margin-top: 30%;
   }
-  .table_deposit TH {
+  .table_deposit TH,
+  .table_adherent th {
     text-align: center;
   }
-  .table_deposit td {
+  .table_deposit td,
+  .table_adherent td {
     font-size: 14px;
   }
   /* RESPONSIVE MON INSCRIPTION */
@@ -609,11 +696,15 @@ input:disabled {
   }
 
   /*Responsive DEPOTS*/
-  .table_deposit {
+  .table_deposit,
+  .table_adherent {
     margin-top: 10%;
   }
   .table_deposit TH {
     text-align: left;
+  }
+  .table_adherent th {
+    width: 15%;
   }
   .table_deposit td {
     font-size: 16px;
