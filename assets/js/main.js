@@ -29,7 +29,7 @@ if ($("body").data("title") === "js_index") {
   let btnTheme = document.getElementById("theme_btn");
 
   // Bouton fermeture
-  let spanClose = document.getElementsByClassName("close")[0];
+  let spanClose = document.getElementsByClassName("close4")[0];
 
   // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
   btnTheme.onclick = function () {

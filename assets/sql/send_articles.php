@@ -188,12 +188,12 @@ if ($script == 1) {
     
                     $reqSoumettre->closeCursor();   
                     
-                    $messageValid = "<p style='color:green;margin:2% auto;text-align:center;'>Votre article à bien été envoyé, vous pouvez retrouvez le suivi depuis votre espace pro.</p>";
+                    header("Location: reussie.php");
                     
                     }
                 catch (Exception $e) {
-                    
-                    $messageValid = "<p style='color:red;margin:2% auto;text-align:center;'>Votre article n'a pas pu être envoyé, veuillez vérifier la conformité de vos informations.</p>";
+                  header("Location: erreur.php");
+                   
                     //print_r($req->errorInfo());
                 }
             }

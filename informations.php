@@ -87,7 +87,7 @@ session_start();
                                     6 pauses café : café, thé, jus de fruits, viennoiseries.
                                 </li>
                             </ul>
-                            <a href="#">
+                            <a href="inscription.php">
                                 <button class="btnCTA">comment s'inscrire ? <i
                                         class="fa fa-solid fa-chevron-right"></i></button>
                             </a>
@@ -179,11 +179,11 @@ session_start();
                                 nous la
                                 percevons par le nombre de soumissions à RFIA...</p>
 
-                            <a href="#"> <button class="btnmore">en savoir plus <i
+                            <a href="http://www.afrif.asso.fr/?page_id=64"> <button class="btnmore">en savoir plus <i
                                         class="fa fa-solid fa-chevron-right"></i></button></a>
                         </div>
                     </div>
-                    <a href="#">
+                    <a href="http://www.afrif.asso.fr/?page_id=64">
                         <button class="btnCTA2">adhérer à l'afrif<i class="fa fa-solid fa-chevron-right"></i></button>
                     </a>
                 </div>

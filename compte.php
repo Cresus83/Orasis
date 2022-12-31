@@ -231,7 +231,7 @@ if ($_SESSION['role'] == "Administrateur"){
                    <div class='modal' id='modal2'>
                    <div class='modal-content'>
                        <div class='btn_close'>
-                           <span class='close2'>&times;</span>
+                           <span class='close close2'>&times;</span>
                        </div>
                        
                        <div class='modify_title'>
@@ -314,8 +314,25 @@ else {
                         $content_page .="<tr class='line'>
                             <td data-th='Titre du dépôt'>".$listedepots[$key]['titre_article']."</td>
                             <td data-th='Date du dépôt'>".$listedepots[$key]['date_soumission']."</td>
+                            ";
+                            if ($listedepots[$key]['soumettre_statut'] == "Valide"){
+                            $content_page.="
+                            <td class='validate' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."
+                            </td>";
+                            }
+                            else if ($listedepots[$key]['soumettre_statut'] == "En cours") {
+                            $content_page.="
                             <td class='checking' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."
-                            </td>
+                            </td>";
+                            }
+                            else {
+                            $content_page.="
+                            <td class='refused' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."
+                            </td>";
+                            }
+
+                            $content_page.="
+
                         </tr>";
                         }
                         $content_page .="

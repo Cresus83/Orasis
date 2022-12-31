@@ -192,6 +192,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 0 5%;
   }
 
   .activite_btn {
@@ -263,7 +264,23 @@
     width: 30%;
   }
   .content_act {
-    flex-direction: r;
+    flex-direction: row;
+  }
+
+  .activity_photo {
+    width: 30%;
+  }
+  .activity_text p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .activity_text h4 {
+    font-size: 38px;
+    text-align: left;
+  }
+  .activity_text {
+    width: 50%;
   }
 }
 @media (min-width: 1025px) {

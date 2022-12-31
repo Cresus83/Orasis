@@ -8,8 +8,9 @@ session_start();
 <title>ORASIS 2023 | Articles</title>
 <?php include "assets/includes/header.php";
 
+
 //* Script pour afficher le bouton redirection du formulaire si non connecté
-if (isset($_SESSION['status']) == "Valide") {
+if (@$_SESSION['status'] == "Valide") {
     
     $style="";
     $style = "<style>.redirect {

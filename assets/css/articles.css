@@ -212,6 +212,18 @@ input:disabled {
 }
 
 @media (min-width: 320px) {
+  .zone .selectFile {
+    width: 250px;
+  }
+
+  form {
+    padding: 0 5%;
+  }
+
+  .submit {
+    width: 250px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -219,6 +231,18 @@ input:disabled {
 @media (min-width: 641px) {
 }
 @media (min-width: 961px) {
+  .zone .selectFile {
+    width: 300px;
+  }
+
+  form {
+    padding: 0 30%;
+  }
+
+  .submit {
+    width: 300px;
+    font-size: 1.2em;
+  }
 }
 @media (min-width: 1025px) {
 }
