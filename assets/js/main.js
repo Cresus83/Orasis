@@ -543,8 +543,6 @@ if ($("body").data("title") === "js_compte") {
   let btnVertical = document.querySelectorAll(".v_link");
   let containerCat = document.querySelectorAll(".categ");
 
-  console.log(btnVertical);
-  console.log(containerCat);
   for (let i = 0; i < btnVertical.length; i++) {
     // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
     btnVertical[i].onclick = function () {
@@ -559,7 +557,7 @@ if ($("body").data("title") === "js_compte") {
     };
   }
 
-  //* JS POUR MODIFICATION MODAL
+  //* JS POUR MODIFICATION MODAL ADHERENT
   function ReAssign(name, prenom, email) {
     document.getElementById("new_nom").value = name;
     document.getElementById("new_prenom").value = prenom;
@@ -572,6 +570,21 @@ if ($("body").data("title") === "js_compte") {
     // Sur le click, fermeture du modal
     spanModif.onclick = function () {
       document.getElementById("modal").style.display = "none";
+    };
+  }
+
+  //* JS POUR MODIFICATION MODAL DEPOTS
+  function ReAssignDepot(idArticle) {
+    console.log(idArticle);
+    document.getElementById("article_id").value = idArticle;
+    document.getElementById("modal2").style.display = "block";
+
+    // Bouton fermeture
+    let spanModif2 = document.getElementsByClassName("close2")[0];
+
+    // Sur le click, fermeture du modal
+    spanModif2.onclick = function () {
+      document.getElementById("modal2").style.display = "none";
     };
   }
 
@@ -596,5 +609,50 @@ if ($("body").data("title") === "js_compte") {
         }
       }
     }
+  }
+
+  //* JS POUR FILTRE Titre
+  function searchByTitle() {
+    // Declare variables
+    let input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("filter_title_input");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("table_admin");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+
+  let btnMobile = document.querySelectorAll(".mobile_link");
+  let containermob = document.querySelectorAll(".mobcateg");
+
+  for (let n = 0; n < btnMobile.length; n++) {
+    // Sur le click, affichage de la bonne section
+    btnMobile[n].onclick = function () {
+      console.log(btnMobile[n]);
+      console.log(containermob[n]);
+      if (
+        btnMobile[n].dataset["btncatmob"] ==
+        containermob[n].dataset["categmobile"]
+      ) {
+        console.log(containermob[n]);
+        console.log(btnMobile[n]);
+        $(".mobile_link").removeClass("vertical_active");
+        $(".mobcateg").hide();
+        btnMobile[n].classList.add("vertical_active");
+        containermob[n].style.display = "block";
+      }
+    };
   }
 }

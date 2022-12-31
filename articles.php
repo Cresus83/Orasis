@@ -15,6 +15,12 @@ if (isset($_SESSION['status']) == "Valide") {
     $style = "<style>.redirect {
         display:none;
        }</style>";
+
+    $mail_user = $_SESSION['mail'];
+    $prenom_user = $_SESSION['prenom'];
+    $nom_user = $_SESSION['nom'];
+
+    
 } else {
 
 $style="";
@@ -25,13 +31,22 @@ $style = "<style>
    }
    
    .submit {display:none;}</style>";
+
+
+    $mail_user = '';
+    $prenom_user ='';
+    $nom_user = '';
 }
+
+
+
 echo $style; ?>
 
 
 <body data-title="js_articles">
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
+    <?php include "assets/sql/send_articles.php" ?>
 
 
 
@@ -129,23 +144,26 @@ echo $style; ?>
 
 
 
-                <form>
+                <form method="post" action="#" enctype="multipart/form-data">
                     <p class="label_form">Informations sur l'auteur</p>
                     <div class="top_row">
 
-                        <input id="nom" name="nom" type="text" placeholder="Nom de l'auteur">
-                        <input name="prenom" type="text" placeholder="Prénom de l'auteur">
+                        <input id="nom" name="nom" type="text" placeholder="Nom de l'auteur"
+                            value="<?php print ($nom_user); ?>" disabled>
+                        <input name="prenom" type="text" placeholder="Prénom de l'auteur"
+                            value="<?php print ($prenom_user); ?>" disabled>
                     </div>
 
                     <div class="bot_row">
-                        <input name="email" type="email" placeholder="Email de l'auteur">
+                        <input type="email" name="adresse_email" placeholder="Email de l' auteur"
+                            value="<?php print ($mail_user); ?>" disabled>
                     </div>
 
                     <p class="label_form">Informations sur l'article</p>
                     <div class="bot_row">
-                        <input name="title" type="text" placeholder="Titre de l'article">
+                        <input type="text" name="titre" placeholder="Titre de l'article" required maxlength="50">
 
-                        <textarea placeholder="Résumer de l'article" name="resume"></textarea>
+                        <textarea placeholder="Résumer de l'article" name="resume" required maxlength="250"></textarea>
                     </div>
 
                     <div class="zone">
@@ -154,14 +172,15 @@ echo $style; ?>
 
                             <div class="selectFile">
                                 <label for="file">Déposer votre fichier</label>
-                                <input type="file" name="files[]" id="file">
+                                <input type="file" name="files_article" accept="application/pdf" id="file">
                             </div>
                             <p class="indication">Poid du fichier : 5 Mo maximum</p>
                             <p class="result" id="result_file">Aucun fichier choisi</p>
                         </div>
 
                     </div>
-                    <input class="submit" type="submit" value="Soumettre votre article"></input>
+                    <input class="submit" type="submit" name="valider" value="Soumettre votre article"></input>
+                    <?php echo $messageValid ;?>
                     <div class="redirect"><a href="login.php"><button type="button">Veuillez vous connectez pour
                                 soumettre un
                                 article.</button></a></div>
