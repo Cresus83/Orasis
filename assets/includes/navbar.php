@@ -23,7 +23,7 @@
 
        } else {
            $bottom = "";
-           $bottom = "<button class='probtn'><i class='fa fa-solid fa-user'></i>ESPACE ADHÉRENT</button>
+           $bottom = "
            
            <div class='bottom'>
            <a href='login.php'>Connexion</a>
