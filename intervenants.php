@@ -84,7 +84,7 @@ session_start();
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Thierry Chatau</p>
-                                <p class="comites_univ">Université de Clémont Auv.</p>
+                                <p class="comites_univ">Université de Clermont Auv.</p>
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Michael Clément</p>
@@ -180,7 +180,7 @@ session_start();
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Céline Teulière</p>
-                                <p class="comites_univ">Université de Clémont Auvergne</p>
+                                <p class="comites_univ">Université de Clermont Auv.</p>
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Laure Tougne</p>
@@ -192,7 +192,7 @@ session_start();
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Antoine Vacavant</p>
-                                <p class="comites_univ">Université de Clémont Auvergne</p>
+                                <p class="comites_univ">Université de Clermont Auv.</p>
                             </div>
                             <div class="programme_members">
                                 <p class="comites_nom">Pascal Vasseur</p>
