@@ -11,10 +11,26 @@
         <li class="link_navbar"><a href="./intervenants.php">Intervenants</a></li>
         <li class="link_navbar"><a href="./informations.php">Informations</a></li>
         <li class="link_navbar"><a href="./contact.php">Contact</a></li>
-        <div class="bottom">
-            <a href="login.php">Connexion</a>
-            <a href="inscription.php">Inscription</a>
-        </div>
+        <?php
+       
+       //* Script pour afficher le bouton déconnexion si une session est ouverte
+       if (isset($_SESSION['autoriser']) == 'oui') {
+           $bottom = "";
+           $bottom = "        <div class='bottom'>
+           <a href='compte.php'>Mon espace</a>
+       </div>";
+           
+
+       } else {
+           $bottom = "";
+           $bottom = "
+           
+           <div class='bottom'>
+           <a href='login.php'>Connexion</a>
+           <a href='inscription.php'>Inscription</a>
+       </div>";
+       }
+       echo $bottom; ?>
     </ul>
 
     <div class="right dropdown">

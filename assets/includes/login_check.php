@@ -22,6 +22,7 @@ if(isset($valider)){
         $_SESSION['login'] = $tab[0]["identifiant_user"]; 
         $_SESSION['date_inscrip'] = $tab[0]["date_inscription"]; 
         $_SESSION['role'] = $tab[0]["role_user"]; 
+        $_SESSION['identification'] = $tab[0]["id_user"]; 
         header("Location:compte.php");
     }
     else

@@ -67,7 +67,7 @@ session_start();
             <div class="modal" id="modal_about">
                 <div class="modal-content">
                     <div class="btn_close">
-                        <span class="close">&times;</span>
+                        <span class="close close3">&times;</span>
                     </div>
                     <div class="about_title">
                         <h3>QU’EST-CE QU’ORASIS 2023 ?</h3>
@@ -84,9 +84,9 @@ session_start();
                                 docteurs) issus de la communauté de la vision par ordinateur ou de domaines connexes,
                                 avec l'ambition de favoriser, dans une ambiance conviviale, les échanges entre les
                                 participants, notamment entre les jeunes chercheurs et chercheurs expérimentés dans le
-                                domaine. </p>
-                            <br><span class="strong">Comment va se dérouler la conférence ?</span><br>
-                            <p>Les journées seront rythmées par des sessions plénières ainsi que des sessions posters,
+                                domaine.
+                                <br><span class="strong">Comment va se dérouler la conférence ?</span><br>
+                                Les journées seront rythmées par des sessions plénières ainsi que des sessions posters,
                                 plusieurs sessions (7) de conférenciers invités complètent le déroulement de ces
                                 journées.<br><br>
                                 Les contributions doivent porter sur des travaux de recherche en lien avec la vision par
@@ -131,7 +131,7 @@ session_start();
                             <div class="modal" id="modal_theme">
                                 <div class="modal-content">
                                     <div class="btn_close">
-                                        <span class="close">&times;</span>
+                                        <span class="close close4">&times;</span>
                                     </div>
                                     <div class="title">
                                         <span>Les thématiques</span>

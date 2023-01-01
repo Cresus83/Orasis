@@ -198,6 +198,10 @@ input[type="submit"]:hover {
   margin-bottom: 2%;
 }
 
+input:disabled {
+  cursor: not-allowed;
+  background: #e5dcdc;
+}
 .redirect a button {
   background: #ffffff;
   border: 3px solid #a30000;
@@ -208,6 +212,18 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 320px) {
+  .zone .selectFile {
+    width: 250px;
+  }
+
+  form {
+    padding: 0 5%;
+  }
+
+  .submit {
+    width: 250px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -215,6 +231,18 @@ input[type="submit"]:hover {
 @media (min-width: 641px) {
 }
 @media (min-width: 961px) {
+  .zone .selectFile {
+    width: 300px;
+  }
+
+  form {
+    padding: 0 30%;
+  }
+
+  .submit {
+    width: 300px;
+    font-size: 1.2em;
+  }
 }
 @media (min-width: 1025px) {
 }

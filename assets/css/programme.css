@@ -358,6 +358,9 @@ li {
   .current-events {
     margin-bottom: 10%;
   }
+  .programme {
+    padding: 20% 7%;
+  }
 }
 @media (min-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -367,6 +370,9 @@ li {
 }
 @media (min-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .programme {
+    padding: 10% 7%;
+  }
 }
 @media (min-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -409,6 +415,9 @@ li {
   }
   .current-events {
     margin-bottom: 10%;
+  }
+  .programme {
+    padding: 5% 0;
   }
 }
 @media (min-width: 1025px) {
