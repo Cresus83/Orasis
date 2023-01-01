@@ -31,7 +31,7 @@ section {
 }
 
 #main {
-  background: no-repeat center url("../img/bg_lines.svg");
+  background: no-repeat center url("../img/svg/bg_lines.svg");
   width: 100%;
   z-index: 1000000;
 }

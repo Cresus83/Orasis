@@ -49,19 +49,19 @@ session_start();
                             class="fa fa-solid fa-chevron-right"></i></button>
                     <div class="about_icons">
                         <div class="intervenants">
-                            <img src="./assets/img/mic.svg" alt="Micro">
+                            <img src="./assets/img/svg/mic.svg" alt="Micro">
                             <p class="about_icon_title">Intervenants</p>
                             <p class="about_icon_text">Venez assister aux interventions de nos comités.</p>
                         </div>
                         <div class="auteurs">
-                            <img src="./assets/img/people-fill.svg" alt="Micro">
+                            <img src="./assets/img/svg/people-fill.svg" alt="Micro">
                             <p class="about_icon_title">Auteurs</p>
                             <p class="about_icon_text">C’est l’occasion de mettre en avant vos articles.</p>
                         </div>
                     </div>
                 </div>
                 <div class="rightzone">
-                    <img class="about_img" src="./assets/img/about_us.svg" alt="A propos">
+                    <img class="about_img" src="./assets/img/svg/about_us.svg" alt="A propos">
                 </div>
             </div>
             <div class="modal" id="modal_about">
@@ -96,7 +96,7 @@ session_start();
                             </p>
                         </div>
                         <div class="about_img2">
-                            <img src="./assets/img/plage_caquerainne.png" alt="Plage Caquerainne">
+                            <img src="./assets/img/webp/plage-caquerainne.webp" alt="Plage Caquerainne">
                         </div>
                     </div>
 
@@ -113,7 +113,7 @@ session_start();
 
                 <div class="doublesquare">
                     <div class="bot-img">
-                        <img src="./assets/img/themes.png" alt="Themes">
+                        <img src="./assets/img/webp/themes.webp" alt="Themes">
                     </div>
                     <div class="rightzone">
                         <h3 class="discover_title">Découvrez les thématiques que nous aborderons durant ORASIS 2023</h3>
@@ -142,7 +142,7 @@ session_start();
                                         <!-- LIGNE 1 -->
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/vision.png"
+                                                <img class="icon_theme" src="./assets/img/webp/vision.webp"
                                                     alt="Vision & Géometrie">
                                             </div>
                                             <div class="theme_text">
@@ -151,7 +151,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/asservissement.png"
+                                                <img class="icon_theme" src="./assets/img/webp/asservissement.webp"
                                                     alt="Vision & Asservissement">
                                             </div>
                                             <div class="theme_text">
@@ -160,7 +160,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/active.png"
+                                                <img class="icon_theme" src="./assets/img/webp/active.webp"
                                                     alt="Vision active">
                                             </div>
                                             <div class="theme_text">
@@ -169,7 +169,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/robotique.png"
+                                                <img class="icon_theme" src="./assets/img/webp/robotique.webp"
                                                     alt="Vision Robotique">
                                             </div>
                                             <div class="theme_text">
@@ -178,7 +178,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/3d.png" alt="Modélisation 3d">
+                                                <img class="icon_theme" src="./assets/img/webp/3d.webp" alt="Modélisation 3d">
                                             </div>
                                             <div class="theme_text">
                                                 <p>MODÉLISATION 3D</p>
@@ -186,7 +186,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/mvt.png"
+                                                <img class="icon_theme" src="./assets/img/webp/mvt.webp"
                                                     alt="Analyse du mouvement">
                                             </div>
                                             <div class="theme_text">
@@ -196,7 +196,7 @@ session_start();
                                         <!-- LIGNE 2 -->
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/suivi.png" alt="Suivi visuel">
+                                                <img class="icon_theme" src="./assets/img/webp/suivi.webp" alt="Suivi visuel">
                                             </div>
                                             <div class="theme_text">
                                                 <p>SUIVI VISUELS</p>
@@ -204,7 +204,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/deformable.png"
+                                                <img class="icon_theme" src="./assets/img/webp/deformable.webp"
                                                     alt="Modèle déformable">
                                             </div>
                                             <div class="theme_text">
@@ -213,7 +213,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/apprenti.png"
+                                                <img class="icon_theme" src="./assets/img/webp/apprenti.webp"
                                                     alt="Apprentissage">
                                             </div>
                                             <div class="theme_text">
@@ -223,7 +223,7 @@ session_start();
 
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/class.png"
+                                                <img class="icon_theme" src="./assets/img/webp/class.webp"
                                                     alt="Classification">
                                             </div>
                                             <div class="theme_text">
@@ -232,7 +232,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/interpre.png"
+                                                <img class="icon_theme" src="./assets/img/webp/interpre.webp"
                                                     alt="Interpretation">
                                             </div>
                                             <div class="theme_text">
@@ -241,7 +241,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/indexation.png"
+                                                <img class="icon_theme" src="./assets/img/webp/indexation.webp"
                                                     alt="Indexation multimédia">
                                             </div>
                                             <div class="theme_text">
@@ -251,7 +251,7 @@ session_start();
                                         <!-- LIGNE 3 -->
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/compress.png"
+                                                <img class="icon_theme" src="./assets/img/webp/compress.webp"
                                                     alt="Compression">
                                             </div>
                                             <div class="theme_text">
@@ -260,7 +260,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/segment.png"
+                                                <img class="icon_theme" src="./assets/img/webp/segment.webp"
                                                     alt="Segmentation">
                                             </div>
                                             <div class="theme_text">
@@ -269,7 +269,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/reconnaissance.png"
+                                                <img class="icon_theme" src="./assets/img/webp/reconnaissance.webp"
                                                     alt="Indexation multimédia">
                                             </div>
                                             <div class="theme_text">
@@ -278,7 +278,7 @@ session_start();
                                         </div>
                                         <div class="theme_item">
                                             <div class="theme_icon">
-                                                <img class="icon_theme" src="./assets/img/vr.png"
+                                                <img class="icon_theme" src="./assets/img/webp/vr.webp"
                                                     alt="RÉALITÉ VIRTUELLE">
                                             </div>
                                             <div class="theme_text">
@@ -316,7 +316,7 @@ session_start();
 
                 </div>
                 <div class="bot-img">
-                    <img src="./assets/img/confer.png" alt="Conferences">
+                    <img src="./assets/img/webp/confer.webp" alt="Conferences">
                 </div>
             </div>
         </section>
@@ -326,7 +326,7 @@ session_start();
 
                 <div class="doublesquare">
                     <div class="bot-img">
-                        <img src="./assets/img/planning.png" alt="Themes">
+                        <img src="./assets/img/webp/planning.webp" alt="Themes">
                     </div>
                     <div class="rightzone">
                         <h3 class="discover_title">Quel est le planning d’ORASIS 2023 ?</h3>
@@ -392,10 +392,10 @@ session_start();
                 <div class="doublesquare">
                     <div class="leftzone">
 
-                        <img class="topimg" src="./assets/img/act1.png" alt="VTT">
+                        <img class="topimg" src="./assets/img/webp/act1.webp" alt="VTT">
 
 
-                        <img class="botimg" src="./assets/img/act2.png" alt="Parachute">
+                        <img class="botimg" src="./assets/img/webp/act2.webp" alt="Parachute">
 
 
                     </div>

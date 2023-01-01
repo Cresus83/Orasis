@@ -36,7 +36,7 @@ session_start();
                                 Les photos suivantes présentent les locaux et l’emplacement de cet établissement.</p>
                         </div>
                         <div class="conf-img">
-                            <img alt="image du centre Miléade" src="assets/img/conf-img1.png">
+                            <img alt="image du centre Miléade" src="assets/img/webp/conf-img1.webp">
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ session_start();
                             simples et 15 chambres doubles (photo ci-dessous).</p>
                     </div>
 
-                    <img alt="image du centre Miléade" src="assets/img/conf-img2.png">
+                    <img alt="image du centre Miléade" src="assets/img/webp/conf-img2.webp">
 
                     <div class="bloc-text">
                         <ul>
@@ -69,7 +69,7 @@ session_start();
 
                     <div class="doublesquare">
                         <div class="conf-img3">
-                            <img alt="image du centre Miléade" src="assets/img/conf-img3.png">
+                            <img alt="image du centre Miléade" src="assets/img/webp/conf-img3.webp">
                         </div>
 
                         <div class="conf-text2">
@@ -121,9 +121,9 @@ session_start();
                                 <a target="_blank"
                                     href="https://play.google.com/store/apps/details?id=fr.cityway.android.rmtt&hl=fr&pli=1"><img
                                         alt="Google Play App Download"
-                                        src="assets/img/google-play-app-download.png"></a>
+                                        src="assets/img/webp/google-play-app-download.webp"></a>
                                 <a target="_blank" href="https://apps.apple.com/fr/app/reseau-mistral/id429896529"><img
-                                        alt="App Store App Download" src="assets/img/app-store-app-download.png"></a>
+                                        alt="App Store App Download" src="assets/img/webp/app-store-app-download.webp"></a>
                             </div>
 
                         </div>

@@ -7,7 +7,7 @@
 # Header
 --------------------------------------------------------------*/
 #hero {
-  background: no-repeat center url("../img/hero_img.webp");
+  background: no-repeat center url("../img/webp/hero_img.webp");
   background-size: cover;
   position: relative;
   width: 100%;
@@ -518,7 +518,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/sea.jpg");
+  background-image: url("../img/webp/sea.webp");
   background-size: cover;
 }
 

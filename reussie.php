@@ -10,7 +10,7 @@
         <div class="container">
             <div class="success">
                 <div class="left_pic">
-                    <img src="assets/img/success.svg" alt="Success StorySet">
+                    <img src="assets/img/svg/success.svg" alt="Success StorySet">
                 </div>
                 <div class="success_text">
                     <h3>Merci d’avoir soumis votre article...</h3>

@@ -2,7 +2,7 @@
 @import "template.css";
 
 body {
-  background: no-repeat center url("../img/bg_login.svg");
+  background: no-repeat center url("../img/svg/bg_login.svg");
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ input[type="submit"]:hover {
     width: 300px;
   }
   section {
-    background: no-repeat center url("../img/bg_login_mob.svg");
+    background: no-repeat center url("../img/svg/bg_login_mob.svg");
     background-size: cover;
     padding: 150px 0 0 0;
     height: 100%;
@@ -167,7 +167,7 @@ input[type="submit"]:hover {
     width: 900px;
   }
   section {
-    background: no-repeat center url("../img/bg_login.svg");
+    background: no-repeat center url("../img/svg/bg_login.svg");
     background-size: cover;
     padding: 10% 0 0 0;
   }

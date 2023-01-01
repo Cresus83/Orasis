@@ -13,7 +13,7 @@
     <section>
         <div class="card login">
             <div class="left_img">
-                <img class="storyset" src="assets/img/login_story.png" alt="StorySet Login">
+                <img class="storyset" src="assets/img/webp/login-story.webp" alt="StorySet Login">
             </div>
 
             <div class="form_container">

@@ -18,19 +18,19 @@
   border-radius: 10px;
 }
 .rando {
-  background: no-repeat center url("../img/walk.webp");
+  background: no-repeat center url("../img/webp/walk.webp");
   background-size: cover;
 }
 .chasse {
-  background: no-repeat center url("../img/tresor.webp");
+  background: no-repeat center url("../img/webp/tresor.webp");
   background-size: cover;
 }
 .scooter {
-  background: no-repeat center url("../img/board.webp");
+  background: no-repeat center url("../img/webp/board.webp");
   background-size: cover;
 }
 .gala {
-  background: no-repeat center url("../img/gala.png");
+  background: no-repeat center url("../img/webp/gala.webp");
 }
 
 .activite_title {

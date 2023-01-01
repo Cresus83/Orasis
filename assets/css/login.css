@@ -1,14 +1,14 @@
 @import "template.css";
 
 body {
-    background: no-repeat center url("../img/bg_login.svg");
+    background: no-repeat center url("../img/svg/bg_login.svg");
     width: 100%;
 }
 
 .card {
     width: 1000px;
     margin: auto;
-    background: no-repeat center url("../img/conference.webp");
+    background: no-repeat center url("../img/webp/conference.webp");
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -156,7 +156,7 @@ input[type="submit"]:hover {
 
     section {
         padding: 60.3% 0;
-        background: no-repeat center url("../img/bg_login_mob.svg");
+        background: no-repeat center url("../img/svg/bg_login_mob.svg");
         background-size: cover;
     }
 
@@ -193,7 +193,7 @@ input[type="submit"]:hover {
     }
 
     .card {
-        background: no-repeat center url("../img/conference.webp");
+        background: no-repeat center url("../img/webp/conference.webp");
         background-size: cover;
         width: 1000px;
     }

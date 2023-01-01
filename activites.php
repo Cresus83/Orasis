@@ -66,7 +66,7 @@ session_start();
                         </div>
                         <div class="content_act">
                             <div class="activity_photo">
-                                <img src="./assets/img/rando2.png" alt="Randonnée">
+                                <img src="./assets/img/webp/rando2.webp" alt="Randonnée">
                             </div>
                             <div class="activity_text">
                                 <h4>
@@ -90,7 +90,7 @@ session_start();
                         </div>
                         <div class="content_act">
                             <div class="activity_photo">
-                                <img src="./assets/img/chasse2.png" alt="Chasse au trésor">
+                                <img src="./assets/img/webp/chasse2.webp" alt="Chasse au trésor">
                             </div>
                             <div class="activity_text">
                                 <h4>
@@ -118,7 +118,7 @@ session_start();
                         </div>
                         <div class="content_act">
                             <div class="activity_photo">
-                                <img src="./assets/img/scooter.png" alt="Scooter Sous Marin">
+                                <img src="./assets/img/webp/scooter.webp" alt="Scooter Sous Marin">
                             </div>
                             <div class="activity_text">
                                 <h4>
@@ -148,7 +148,7 @@ session_start();
                         </div>
                         <div class="content_act">
                             <div class="activity_photo">
-                                <img src="./assets/img/gala2.png" alt="Soirée de gala">
+                                <img src="./assets/img/webp/gala2.webp" alt="Soirée de gala">
                             </div>
                             <div class="activity_text">
                                 <h4>

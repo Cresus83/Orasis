@@ -1,7 +1,7 @@
 <div class="navbar" id="navbar">
 
     <div class="logo">
-        <a href="./index.php"><img src="./assets/img/Orasis_logo.svg" class="orasislogo" alt="ORASIS LOGO"></a>
+        <a href="./index.php"><img src="./assets/img/svg/Orasis_logo.svg" class="orasislogo" alt="ORASIS LOGO"></a>
     </div>
 
 

@@ -12,7 +12,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="ORASIS 2023" />
     <meta name="twitter:description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes du 22 au 26 mai !" />
-    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/img/webp/favicon.webp">
     <!-- CSS files -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" rel="stylesheet">

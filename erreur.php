@@ -12,7 +12,7 @@ header('Refresh: 10; URL=articles.php');
         <div class="container">
             <div class="error">
                 <div class="left_pic">
-                    <img src="assets/img/error.svg" alt="Error StorySet">
+                    <img src="assets/img/svg/error.svg" alt="Error StorySet">
                 </div>
                 <div class="error_text">
                     <h3>Une erreur est survenue lors de la soumission de votre article...</h3>

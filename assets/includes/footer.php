@@ -19,7 +19,7 @@
             <h4>En collaboration avec</h4>
         </div>
         <div class="partenaires">
-            <img class="footerlogo" src="./assets/img/partenaires.png">
+            <img class="footerlogo" src="./assets/img/webp/partenaires.webp">
         </div>
 
     </div>
