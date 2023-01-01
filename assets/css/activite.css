@@ -154,7 +154,6 @@
 
 .activity_text {
   width: 50%;
-  padding-left: 8%;
   text-align: left;
 }
 .activity_text h4 {
@@ -166,7 +165,7 @@
 .activity_text p {
   font-size: 18px;
   line-height: 32px;
-  margin-top: 10%;
+  margin-top: 2rem;
 }
 .activity_photo {
   width: 30%;
@@ -174,7 +173,7 @@
   justify-content: center;
 }
 .activity_photo img {
-  width: 100%;
+  width: 70%;
 }
 #footer {
   margin-top: 7% !important;
@@ -200,14 +199,12 @@
   }
 
   .content_act {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .activity_text {
     width: 100%;
     text-align: center;
-    margin-top: 5%;
-    padding: 5%;
   }
 
   .activity_text p {
@@ -221,6 +218,7 @@
 
   .activity_photo {
     width: 80%;
+    margin-top: 2rem;
   }
   .modal {
     z-index: 100;
@@ -280,7 +278,7 @@
     text-align: left;
   }
   .activity_text {
-    width: 50%;
+    width: 70%;
   }
 }
 @media (min-width: 1025px) {

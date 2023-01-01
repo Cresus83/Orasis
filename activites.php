@@ -73,13 +73,10 @@ session_start();
                                     QU’EST-CE QUE LA RANDONNÉE ?
                                 </h4>
                                 <p>La randonnée pédestre est une promenade sportive qui s'effectue à pied, généralement
-                                    sur
-                                    des sentiers dans la nature, en plaine comme en montagne.<br>
-                                    Sa durée est extrêmement variable : de la randonnée de quelques heures, à la grande
+                                    sur des sentiers dans la nature, en plaine comme en montagne. Sa durée est extrêmement variable : de la randonnée de quelques heures, à la grande
                                     randonnée de plusieurs jours, voire plusieurs semaines. Ce n'est pas une activité de
-                                    compétition, contrairement au trail ou la course d'orientation par exemple.<br>
-                                    Les améliorations que nous proposons sont des checkpoints de récupération.
-                                    <br>C’est-à-dire
+                                    compétition, contrairement au trail ou la course d'orientation par exemple.
+                                    Les améliorations que nous proposons sont des checkpoints de récupération. C’est-à-dire
                                     des points de repos avec des collations pour récupérer de l'énergie.
                                 </p>
                             </div>
