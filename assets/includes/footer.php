@@ -1,24 +1,28 @@
 <footer id="footer">
     <div class="lh-footer">
-        <h4 class="titlefooter">Navigation</h4>
+        <div class="titlefooter" style="margin-right: 2.8rem">
+            <h4>Navigation</h4>
+        </div>
         <ul>
-            <li><a href="#">ACCUEIL</a></li>
-            <li><a href="#">ACTIVITÉS</a></li>
-            <li><a href="#">INTERVENANTS</a></li>
-            <li><a href="#">INSCRIPTION</a></li>
+            <li><a href="./index.php">ACCUEIL</a></li>
+            <li><a href="./activites.php">ACTIVITÉS</a></li>
+            <li><a href="./intervenants.php">INTERVENANTS</a></li>
+            <li><a href="./inscription.php">INSCRIPTION</a></li>
             <li><a href="#">INFORMATIONS LÉGALES</a></li>
-            <li><a href="#">NOUS CONTACTER</a></li>
+            <li><a href="./contact.php">NOUS CONTACTER</a></li>
 
         </ul>
     </div>
 
     <div class="mid-footer">
-        <h4 class="titlefooter">En collaboration avec :</h4>
-        <img class="footerlogo" src="./assets/img/irit.webp">
-        <img class="footerlogo2" src="./assets/img/inp.png">
+        <div class="titlefooter">
+            <h4>En collaboration avec</h4>
+        </div>
+        <div class="partenaires">
+            <img class="footerlogo" src="./assets/img/partenaires.png">
+        </div>
+
     </div>
-
-
 
 
 </footer>
