@@ -99,8 +99,8 @@ session_start();
                             <img src="./assets/img/webp/plage-caquerainne.webp" alt="Plage Caquerainne">
                         </div>
                     </div>
-
                 </div>
+            </div>
         </section>
 
         <!-- ======= Section Decouvrir Orasis ======= -->
@@ -341,6 +341,9 @@ session_start();
                                     <span class="button-text">voir le planning</span>
                                 </button></a>
                         </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- ======= Section Vidéos Orasis ======= -->
