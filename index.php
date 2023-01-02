@@ -3,11 +3,11 @@ session_start();
    ?>
 <!doctype html>
 <html lang="fr">
-
+<head>
 <link href="assets/css/accueil.css" rel="stylesheet">
 <title>ORASIS 2023 | Accueil</title>
 <?php include "assets/includes/header.php" ?>
-
+</head>
 
 
 <body data-title="js_index">
@@ -99,6 +99,7 @@ session_start();
                             <img src="./assets/img/webp/plage-caquerainne.webp" alt="Plage Caquerainne">
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -121,7 +122,7 @@ session_start();
                             consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit
                             amet
                             commodo sodales...</p>
-                        <div id="discover_button">
+                        <div class="discover_button">
                             <button class="learn-more" id="theme_btn">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -305,13 +306,12 @@ session_start();
                         consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit amet
                         commodo sodales...</p>
                     <div id="discover_button">
-                        <a href="intervenants.php">
-                            <button class="learn-more length">
+                        <a href="intervenants.php" class="learn-more length">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                 </span>
                                 <span class="button-text">nos intervenants</span>
-                            </button></a>
+                            </a>
                     </div>
 
                 </div>
@@ -333,17 +333,17 @@ session_start();
                         <p class="discover_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                             consectetur condimentum odio, et scelerisque mi luctus ac. Pellentesque luctus, ante sit
                             amet commodo sodales...</p>
-                        <div id="discover_button"><a href="programme.php">
-                                <button class="learn-more" id="theme_btn">
+                        <div ><a href="programme.php" class="learn-more length">
+                                
                                     <span class="circle" aria-hidden="true">
                                         <span class="icon arrow"></span>
                                     </span>
                                     <span class="button-text">voir le planning</span>
-                                </button></a>
+                                </a>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </section>
 
         <!-- ======= Section Vidéos Orasis ======= -->
@@ -356,30 +356,30 @@ session_start();
 
                 <div class="videos-carousel owl-carousel owl-theme">
                     <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                     <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                     <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                     <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                     <div><iframe width="488" height="313" src="https://www.youtube.com/embed/qxJ0wFKSztQ"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
 
                 </div>
 
-                <a href="sessions.php"><button class="btnCTA">VOIR TOUTES LES VIDÉOS <i
-                            class="fa fa-solid fa-chevron-right"></i></button></a>
+                <a href="sessions.php" class="btnCTA">VOIR TOUTES LES VIDÉOS <i
+                            class="fa fa-solid fa-chevron-right"></i></a>
 
             </div>
         </section>
@@ -409,8 +409,8 @@ session_start();
                             participants...
                             Vous pouvez retrouver les activités en cliquant sur le bouton ci-dessous.
                         </p>
-                        <a href="./activites.php"> <button class="btnmore">Découvrir <i
-                                    class="fa fa-solid fa-chevron-right"></i></button></a>
+                        <a href="./activites.php" class="btnmore">Découvrir <i
+                                    class="fa fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -433,9 +433,9 @@ session_start();
                         Vous aurez aussi l’occasion de présenter votre article* à la conférence.
 
                     </p>
-                    <a href="inscription.php"><button class="registerbtn">Inscription <i
-                                class="fa fa-solid fa-chevron-right"></i></button></a>
-                    <a href="articles.php">Instruction pour les soummisions d'articles</a>
+                    <a href="inscription.php" class="registerbtn">Inscription <i
+                                class="fa fa-solid fa-chevron-right"></i></a>
+                    <a href="articles.php" class="remarque" >Instruction pour les soummisions d'articles</a>
                     <p class="remarques2">*Pour obtenir l’accès à la soumission d’article, il vous faut au préalable
                         créer un
                         compte

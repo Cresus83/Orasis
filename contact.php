@@ -22,7 +22,7 @@ session_start();
                     <img src="assets/img/gif/message.gif" alt="GIF Mail">
                     <h3>Contact</h3>
                 </div>
-                <form method="post" action="">
+                <form method="post" action="#">
 
                     <div class="input_contact">
                         <input class="input_text mr" type="text" name="nom" placeholder="Nom" required>

@@ -54,9 +54,9 @@ try {
 '<b>Merci de ne pas répondre à cet e-mail.</b>';
     $mail->send();
     // Affiche la page qui indiquent que l'email a bien été envoyée
-    $messageValid = "<p style='color:green;margin:2% auto;'>Le mail à bien été envoyé, merci de nous avoir contacté.</p>";
+    $messageValid = "<p style='color:green;margin:2% auto;'>Le mail a bien été envoyé, merci de nous avoir contacté.</p>";
 } catch (Exception $e) {
-    $messageValid = "<p style='color:red;margin:2% auto;'>Le mail n'a pas pu être envoyé, merci de revoir vos informations ou retentez plus tard.</p>";
+    $messageValid = "<p style='color:red;margin:2% auto;'>Le mail n'a pu être envoyé, merci de revoir vos informations ou retentez plus tard.</p>";
     //echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
 }

@@ -47,7 +47,10 @@ echo $style; ?>
 <body data-title="js_articles">
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
-    <?php include "assets/sql/send_articles.php" ?>
+    <?php include "assets/sql/send_articles.php" ;
+    
+
+    ?>
 
 
 
@@ -57,6 +60,7 @@ echo $style; ?>
                 <span>les articles</span>
                 <h2>les articles</h2>
             </div>
+            
             <div class="container info_articles">
                 <div class="big_title">
                     <h3>Soumission d'un article...</h3>
@@ -173,18 +177,18 @@ echo $style; ?>
 
                             <div class="selectFile">
                                 <label for="file">Déposer votre fichier</label>
-                                <input type="file" name="files_article" accept="application/pdf" id="file">
+                                <input type="file" name="files_article" accept="application/pdf" id="file" required>
                             </div>
-                            <p class="indication">Poid du fichier : 5 Mo maximum</p>
+                            <p class="indication">Poid du fichier : 3 Mo maximum</p>
                             <p class="result" id="result_file">Aucun fichier choisi</p>
                         </div>
 
                     </div>
-                    <input class="submit" type="submit" name="valider" value="Soumettre votre article"></input>
+                    <input class="submit" type="submit" name="valider" value="Soumettre votre article">
                     <?php echo $messageValid ;?>
-                    <div class="redirect"><a href="login.php"><button type="button">Veuillez vous connectez pour
+                    <div class="redirect"><a href="login.php">Veuillez finalisez votre inscription pour
                                 soumettre un
-                                article.</button></a></div>
+                                article.</a></div>
                 </form>
 
             </div>

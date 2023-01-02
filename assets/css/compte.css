@@ -530,6 +530,10 @@ input:disabled {
   .account_form {
     padding-top: 15%;
   }
+  
+  li{
+      list-style:none;
+  }
   .vertical_nav {
     display: none;
   }
@@ -545,6 +549,7 @@ input:disabled {
     width: 90%;
     margin-bottom: 5%;
     text-align: center;
+    font-size:16px;
   }
   .mt,
   .mr {
@@ -631,6 +636,10 @@ input:disabled {
     left: 40%;
     position: relative;
   }
+  
+  .title_form {
+      font-size:16px;
+  }
 }
 
 @media (min-width: 481px) {
@@ -710,6 +719,9 @@ input:disabled {
 @media (min-width: 961px) {
 }
 @media (min-width: 1025px) {
+     .title_form {
+      font-size:24px;
+  }
   .vertical_nav {
     display: flex;
     width: 20%;

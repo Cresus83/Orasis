@@ -9,7 +9,7 @@ session_start();
 <!-- Header Import -->
 <?php include "assets/includes/header.php" ?>
 
-<body data-title="js_programme">
+<body>
     <!-- Navbar Import -->
     <?php include "assets/includes/navbar.php" ?>
 
@@ -49,7 +49,7 @@ session_start();
 
                     <div class="bloc-text">
                         <ul>
-                            Le village club propose également divers services et équipements :<br><br>
+                            <p>Le village club propose également divers services et équipements :<br></p>
                             <li>
                                 Bar avec terrasse de 600 m² et solarium.
                             </li>
@@ -73,10 +73,10 @@ session_start();
                         </div>
 
                         <div class="conf-text2">
-                            <ul>
+                            <ul><p> 
                                 Les frais d’inscription incluent un service de restauration couvrant toute la période de
                                 la
-                                conférence pour tous les participants :<br><br>
+                                conférence pour tous les participants :<br></p>
                                 <li>
                                     4 petits déjeuners.
                                 </li>
@@ -87,9 +87,9 @@ session_start();
                                     6 pauses café : café, thé, jus de fruits, viennoiseries.
                                 </li>
                             </ul>
-                            <a href="inscription.php">
-                                <button class="btnCTA">comment s'inscrire ? <i
-                                        class="fa fa-solid fa-chevron-right"></i></button>
+                            <a href="inscription.php" class="btnCTA">
+                                comment s'inscrire ? <i
+                                        class="fa fa-solid fa-chevron-right"></i>
                             </a>
                         </div>
                     </div>
@@ -179,12 +179,12 @@ session_start();
                                 nous la
                                 percevons par le nombre de soumissions à RFIA...</p>
 
-                            <a href="http://www.afrif.asso.fr/?page_id=64"> <button class="btnmore">en savoir plus <i
-                                        class="fa fa-solid fa-chevron-right"></i></button></a>
+                            <a href="http://www.afrif.asso.fr/?page_id=64" class="btnmore"> en savoir plus <i
+                                        class="fa fa-solid fa-chevron-right"></i></a>
                         </div>
                     </div>
-                    <a href="http://www.afrif.asso.fr/?page_id=64">
-                        <button class="btnCTA2">adhérer à l'afrif<i class="fa fa-solid fa-chevron-right"></i></button>
+                    <a href="http://www.afrif.asso.fr/?page_id=64" class="btnCTA2">
+                        adhérer à l'afrif<i class="fa fa-solid fa-chevron-right"></i>
                     </a>
                 </div>
             </div>

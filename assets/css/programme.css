@@ -145,6 +145,8 @@ li {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
 }
 
 /* Modal Content/Box */
@@ -295,17 +297,17 @@ li {
   margin: -4px 0 0 -4px;
   background: #0d5e80;
   border-radius: 50%;
-  -webkit-animation: scroll-ani 5s linear infinite;
-  -moz-animation: scroll-ani 5s linear infinite;
-  animation: scroll-ani 5s linear infinite;
+  -webkit-animation: scroll-ani 4s linear infinite;
+  -moz-animation: scroll-ani 4s linear infinite;
+  animation: scroll-ani 4s linear infinite;
 }
 .mouse-scroll .mouse-message {
   float: left;
   margin: 0 0 0 7px;
   padding: 0;
-  -webkit-animation: scroll-ani 5s linear infinite;
-  -moz-animation: scroll-ani 5s linear infinite;
-  animation: scroll-ani 5s linear infinite;
+  -webkit-animation: scroll-ani 4s linear infinite;
+  -moz-animation: scroll-ani 4s linear infinite;
+  animation: scroll-ani 4s linear infinite;
 }
 /* ALL RESPONSIVE */
 

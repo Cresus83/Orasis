@@ -2,7 +2,8 @@
 @import "template.css";
 
 body {
-  background: no-repeat center url("../img/svg/bg_login.svg");
+  background: no-repeat center url("../img/svg/bg_login_2k.svg");
+  background-size:cover;
   width: 100%;
 }
 
@@ -337,7 +338,7 @@ td {
   }
   .more_text {
     max-width: 100%;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   table {
@@ -358,12 +359,13 @@ td {
   }
   .important_zone {
     width: 100%;
+    padding:5%;
   }
   .important_zone img {
     display: none;
   }
   .important_zone p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .important_zone button {
     font-size: 14px;
@@ -384,7 +386,11 @@ td {
   }
   .input_text,
   textarea {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  
+  body{
+      background:unset;
   }
 }
 
@@ -405,19 +411,23 @@ td {
   .left_img {
     display: block;
   }
+  
+  section {
+      background:unset;
+  }
   .card {
     background: no-repeat center url("../img/webp/conference.webp");
     background-size: cover;
     display: flex;
     flex-direction: row;
-    width: 1000px;
+    width: 900px;
   }
   .help {
     font-size: 16px;
     text-align: left;
   }
   .input_text {
-    font-size: 18px;
+    font-size: 15px;
   }
   .input_personnelle,
   .input_identifiant {
@@ -443,7 +453,7 @@ td {
     border-radius: unset;
   }
   section {
-    padding: 90px 0;
+    padding: 90px 0 59px 0;
   }
   .reg_btn {
     margin-bottom: 7%;
@@ -501,4 +511,5 @@ td {
 @media (min-width: 1025px) {
 }
 @media (min-width: 1281px) {
+
 }

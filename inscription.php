@@ -34,7 +34,7 @@ session_start();
 
                         <input class="input_text mr" type="password" name="pass" placeholder="Mot de passe"
                             required><input class="input_text " type="password" name="verify_pass"
-                            placeholder="Resaisir le mot de passe" required>
+                            placeholder="Ressaisir le mot de passe" required>
                     </div>
                     <?php echo $messageValid; ?>
                     <input type="submit" name="valider" value="S'inscrire">
@@ -127,14 +127,14 @@ session_start();
                             <li>Adresse :</li>
                             <li>Description: ORASIS'23- NOM et Prénom du participant- PaperID</li>
                         </ul>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
 
 
         </div>
-        </div>
+        
     </section>
 
 

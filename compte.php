@@ -219,7 +219,7 @@ if ($_SESSION['role'] == "Administrateur"){
                               
                                 $content_page .="
                                 ".$statut_line."
-                                <td data-th='PDF'><a href='assets/articles/".$listedepots[$key]['fichier_article']."'><i class='fill fa fa-file-pdf-o'></i></a></td>
+                                <td data-th='PDF'><a target='_blank' href='assets/articles/".$listedepots[$key]['fichier_article']."'><i class='fill fa fa-file-pdf-o'></i></a></td>
                             </tr>";
                         }
                        $content_page .="
@@ -287,10 +287,10 @@ else {
                 <div class='logging'>
                     <input type='text' name='identifiant' class='mr' disabled value=".$_SESSION['login'].">
                     <input type='password' name='old_pass' value='' placeholder='Ancien mot de passe' required>
-                    <input type='password' name='new_pass value='' placeholder=' Nouveau mot de passe' required>
+                    <input type='password' name='new_pass' value='' placeholder=' Nouveau mot de passe' required>
                 </div>
                 <div class='btn'>
-                    <?php echo $error_msg;?>
+                    $error_msg
                     <button type='submit' name='valider' class='validation_pw'>Changer le mot de passe <i
                             class='fa fa-solid fa-lock'></i></button>
                     <p>Si vous souhaitez modifier vos informations personnelles, <a href='contact.php'>veuillez
@@ -338,7 +338,7 @@ else {
                         $content_page .="
 
                     </table>
-                    <p class='remarque'>Pour soumettre votre article, veuillez vous référez aux instructions <a
+                    <p class='remarque'>Pour soumettre votre article, veuillez vous référer aux instructions <a
                             href='articles.php'> ici</a>.</p>
                 </div>
                 <!-- Section 'MON INSCRIPTION' -->
@@ -362,7 +362,7 @@ else {
                                         <div class='steps__space'></div>
                                     </li>
                                     <li class='steps__item'>
-                                        <div class='steps__label'> Inscription finalisé</div>
+                                        <div class='steps__label'> Inscription finalisée</div>
                                         <div class='steps__space'></div>
                                     </li>";
                                     }
@@ -372,8 +372,8 @@ else {
                                             d’inscription</div>
                                         <div class='steps__space'></div>
                                     </li>
-                                    <li class='steps__item steps__item--current'>
-                                        <div class='steps__label'> Inscription finalisé</div>
+                                    <li class='steps__item steps__item--complete'>
+                                        <div class='steps__label'> Inscription finalisée</div>
                                         <div class='steps__space'></div>
                                     </li>";
                                     }
@@ -410,7 +410,7 @@ else {
                             </div>
                         </div>
                     </div>
-                    <p class='remarque'>Pour valider votre inscription, n’oubliez pas d’effectuez le virement comme
+                    <p class='remarque'>Pour valider votre inscription, n’oubliez pas d’effectuer le virement comme
                         expliqué <a href='inscription.php'>ici</a>.</p>
                 </div>
                 ";
@@ -432,7 +432,7 @@ else {
             </div>
 
         </div>
-        </div>
+        
     </section>
     <!-- Footer Import -->
     <?php include "assets/includes/footer.php" ?>
