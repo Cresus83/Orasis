@@ -70,7 +70,7 @@ if (isset($validerBtn)) {
 
                 $req->closeCursor();   
                 
-                $messageValid = "<p style='color:green;margin:2% auto;'>Inscription validé, merci de votre confiance !</p>";
+                $messageValid = "<p style='color:green;margin:2% auto;'>Inscription validée, merci de votre confiance !</p>";
                 }
                 catch (Exception $e) {
                     

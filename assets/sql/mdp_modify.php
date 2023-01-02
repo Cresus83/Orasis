@@ -32,7 +32,7 @@ if ($hash_old == $resultat_mdp ) {
     $modif->bindParam(':newmdp', $hash_new, PDO::PARAM_STR);
 
     $modif->execute();   
-    $error_msg ="<p style='color:green;'>Votre mot de passe à été modifé avec succés.</p>";
+    $error_msg ="<p style='color:green;'>Votre mot de passe a été modifé avec succès.</p>";
 }
 else {
     $error_msg ="<p style='color:red;'>L'ancien mot de passe que vous avez entrez ne correspond pas au mot de passe actuel.</p>";

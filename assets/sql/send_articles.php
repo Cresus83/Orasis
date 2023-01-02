@@ -36,7 +36,7 @@ if (isset($validerBtn)) {
    
    // chemin d'accès au répertoire d'upload (vers où le fichier uploadé temporaire sera transféré)
    // ce répertoire doit EXISTER et être ACCESSIBLE EN ECRITURE !!
-   $destination_dir = 'C:/wamp64/www/MMI2/OrasisV3/assets/articles';
+   $destination_dir = '/home/u486829848/domains/rayan-hachani.fr/public_html/Orasis2023/assets/articles';
    
    // taille maximale en octets du fichier à uploader
    $file_max_size = 3000000;
