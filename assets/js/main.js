@@ -144,7 +144,6 @@ if ($("body").data("title") === "js_activites") {
   // Bouton fermeture
   let spanCloseBtn = document.querySelectorAll(".close");
 
-  console.log(spanCloseBtn);
 
   for (let i = 0; i < btnActivite.length; i++) {
     // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
@@ -185,7 +184,7 @@ if ($("body").data("title") === "js_programme") {
 
   // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
   btnView.onclick = function () {
-    modal.style.display = "block";
+    modal.style.display = "flex";
     document.getElementById("day_calendar").style.visibility = "hidden";
     document.body.style.overflowY = "hidden";
   };

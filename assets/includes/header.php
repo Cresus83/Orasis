@@ -1,13 +1,13 @@
-<head>
+
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes du 22 au 26 mai !" "/>
+    <meta name="description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes du 22 au 26 mai !"/>
     <meta name=" robots" content="index, follow" />
     <meta property="og:title" content="ORASIS 2023" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="#">
-    <meta property="og:description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes du 22 au 26 mai !" "/>
+    <meta property="og:description" content="ORASIS 2023, la 18ème édition d'ORASIS ouvre ses portes du 22 au 26 mai !"/>
     <meta property=" og:locale" content="fr_FR" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="ORASIS 2023" />
@@ -26,5 +26,3 @@
     <!-- FontAwesome link -->
     <script src="https://kit.fontawesome.com/ec5f85796d.js" crossorigin="anonymous"></script>
     <!-- JS LIBRARY -->
-
-</head>

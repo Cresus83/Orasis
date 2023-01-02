@@ -18,6 +18,7 @@
            $bottom = "";
            $bottom = "        <div class='bottom'>
            <a href='compte.php'>Mon espace</a>
+           <a href='./assets/includes/deconnexion.php' style='color:red;' >SE DECONNECTER</a>
        </div>";
            
 
