@@ -384,7 +384,7 @@ td {
   }
   .register_container {
     padding: 8%;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 0 0 10px;
   }
   .input_text,
   textarea {
@@ -477,8 +477,8 @@ td {
   }
   .important_zone {
     width: 50%;
-
-    height: 83.5vh;
+    height: 87.3vh;
+    border-radius: 0 10px 10px 0;
   }
   .important_zone img {
     display: block;
