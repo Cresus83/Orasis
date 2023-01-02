@@ -122,8 +122,6 @@ input[type="submit"]:hover {
   align-content: center;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
-  height: 84vh;
 }
 .important_zone img {
   max-width: 40%;
@@ -360,8 +358,6 @@ td {
   }
   .important_zone {
     width: 100%;
-
-    height: 22vh;
   }
   .important_zone img {
     display: none;
@@ -477,7 +473,6 @@ td {
   }
   .important_zone {
     width: 50%;
-    height: 87.3vh;
     border-radius: 0 10px 10px 0;
   }
   .important_zone img {
