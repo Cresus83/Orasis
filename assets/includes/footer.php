@@ -5,6 +5,7 @@
         </div>
         <ul>
             <li><a href="./index.php">ACCUEIL</a></li>
+            <li><a href="./programme.php">PLANNING</a></li>
             <li><a href="./activites.php">ACTIVITÉS</a></li>
             <li><a href="./intervenants.php">INTERVENANTS</a></li>
             <li><a href="./inscription.php">INSCRIPTION</a></li>
