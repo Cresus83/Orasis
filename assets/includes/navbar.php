@@ -7,7 +7,7 @@
 
     <ul class="links">
 
-        <li class="link_navbar"><a href="./activites.php">Activites</a></li>
+        <li class="link_navbar"><a href="./activites.php">Activités</a></li>
         <li class="link_navbar"><a href="./intervenants.php">Intervenants</a></li>
         <li class="link_navbar"><a href="./informations.php">Informations</a></li>
         <li class="link_navbar"><a href="./contact.php">Contact</a></li>
