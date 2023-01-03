@@ -729,16 +729,19 @@
 
   .modal-content {
     height: 92%;
+    overflow-y: hidden;
   }
 
   .about_text2 {
     text-overflow: clip;
     height: 650px;
+    overflow-y: hidden;
   }
   .about_text2 p {
     max-height: 95%;
     overflow: scroll;
     font-size: 12px;
+    overflow-y: scroll;
   }
   .about_img2 {
     display: none;
