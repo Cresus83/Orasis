@@ -177,6 +177,10 @@ li > a.active-nav::after {
   max-width: 186px;
 }
 
+.espaceperso a:hover {
+  width: 186px;
+}
+
 .navlist {
   padding: 0 15px;
   height: 65px;
