@@ -178,7 +178,7 @@ li > a.active-nav::after {
 }
 
 .espaceperso a:hover {
-  width: 186px;
+  width: 186px !important;
 }
 
 .navlist {
