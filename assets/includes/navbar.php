@@ -18,7 +18,7 @@
            $bottom = "";
            $bottom = "        <div class='bottom'>
            <a href='compte.php'>Mon espace</a>
-           <a href='./assets/includes/deconnexion.php' style='color:red;' >SE DECONNECTER</a>
+           <a href='./assets/includes/deconnexion.php' style='color:#a30000;' >SE DECONNECTER</a>
        </div>";
            
 
@@ -42,7 +42,7 @@
             $btn = "";
             $btn = "<a href='compte.php'><button class='probtn'><i class='fa fa-solid fa-user'></i>MON ESPACE</button></a>
             <div class='dropdown-content' style='right:1px;'>
-            <a href='./assets/includes/deconnexion.php'>Se déconnecter</a>
+            <a href='./assets/includes/deconnexion.php'>Déconnexion</a>
             </div>";
             
 
