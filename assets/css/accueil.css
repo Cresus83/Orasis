@@ -693,7 +693,7 @@
   .grid_theme {
     grid-template-columns: repeat(2, 40%);
     grid-gap: 2%;
-    padding-top: 70%;
+    padding-top: 100%;
     max-height: 85%;
     overflow-y: scroll;
   }
