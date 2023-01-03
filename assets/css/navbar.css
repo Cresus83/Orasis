@@ -165,11 +165,16 @@ li > a.active-nav::after {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 226px;
-  max-width: 226px;
+  min-width: 216px;
+  max-width: 216px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   align-items: center;
+}
+
+.espaceperso {
+  min-width: 186px;
+  max-width: 186px;
 }
 
 .navlist {
@@ -201,7 +206,7 @@ li > a.active-nav::after {
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
-  width: 226px;
+  width: 216px;
   display: flex;
   justify-content: center;
 }

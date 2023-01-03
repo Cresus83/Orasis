@@ -40,8 +40,8 @@
         //* Script pour afficher le bouton déconnexion si une session est ouverte
         if (isset($_SESSION['autoriser']) == 'oui') {
             $btn = "";
-            $btn = "<a href='compte.php'><button class='probtn'><i class='fa fa-solid fa-user'></i>MON ESPACE</button></a>
-            <div class='dropdown-content' style='right:1px;'>
+            $btn = "<a href='compte.php'><button class='probtn'><i class='fa fa-solid fa-user'></i>MON COMPTE</button></a>
+            <div class='dropdown-content espaceperso' style='right:1px;'>
             <a href='./assets/includes/deconnexion.php'>Déconnexion</a>
             </div>";
             
