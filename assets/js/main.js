@@ -144,7 +144,6 @@ if ($("body").data("title") === "js_activites") {
   // Bouton fermeture
   let spanCloseBtn = document.querySelectorAll(".close");
 
-
   for (let i = 0; i < btnActivite.length; i++) {
     // Sur le click, ouverture du modal, cacher le planning de base et bloquer le scroll
     btnActivite[i].onclick = function () {
@@ -639,8 +638,6 @@ if ($("body").data("title") === "js_compte") {
   for (let n = 0; n < btnMobile.length; n++) {
     // Sur le click, affichage de la bonne section
     btnMobile[n].onclick = function () {
-      console.log(btnMobile[n]);
-      console.log(containermob[n]);
       if (
         btnMobile[n].dataset["btncatmob"] ==
         containermob[n].dataset["categmobile"]

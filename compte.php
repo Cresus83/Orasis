@@ -34,6 +34,14 @@ session_start();
                     ";
                 }
 
+                elseif ($_SESSION['role'] == "Relecteur") {
+                    $listLinks ="
+                    <li class='v_link vertical_active' data-btncat='compte'>Mon compte</li>
+                    <li class='v_link' data-btncat='admin_depots'>Les dépôts</li>
+
+                    ";
+                }
+
                 else {
                     $listLinks ="                
                     <li class='v_link vertical_active' data-btncat='compte'>Mon compte</li>
@@ -265,6 +273,124 @@ if ($_SESSION['role'] == "Administrateur"){
 
 }
 
+
+else if ($_SESSION['role'] == "Relecteur") {
+    require_once("assets/sql/linkBDD.php");
+        //* Requête pour récupérer la liste des dépots
+        $reqDep= $pdo->prepare('SELECT * FROM soumettre,articles,utilisateurs 
+        WHERE soumettre.id_article = articles.id_article
+        AND soumettre.id_user = utilisateurs.id_user ');
+        $reqDep->execute();   
+        $listedepots = $reqDep->fetchAll();
+
+$content_page = "
+
+<form class='account_form categ compte mobcateg' data-categorie='compte' data-categmobile='compte_mob' method='post' action='#'>
+                        <h3>Mon compte</h3>
+                        <span class='title_form'>Informations personnelles</span>
+                        <div class='personal'>
+                            <input type='text' name='nom' class='mr' disabled value=".$_SESSION['login'].">
+                    <input type='text' name='prenom' disabled value=".$_SESSION['prenom'].">
+                    <input type='email' name='email' class='mt' disabled value=".$_SESSION['mail'].">
+                </div>
+                <span class='title_form'>Informations de connexion</span>
+                <div class='logging'>
+                    <input type='text' name='identifiant' class='mr' disabled value=".$_SESSION['login'].">
+                    <input type='password' name='old_pass' value='' placeholder='Ancien mot de passe' required>
+                    <input type='password' name='new_pass' value='' placeholder=' Nouveau mot de passe' required>
+                </div>
+                <div class='btn'>
+                    $error_msg
+                    <button type='submit' name='valider' class='validation_pw'>Changer le mot de passe <i
+                            class='fa fa-solid fa-lock'></i></button>
+                    <p>Si vous souhaitez modifier vos informations personnelles, <a href='contact.php'>veuillez
+                            nous
+                            contacter.</a></p>
+                </div>
+                </form>
+
+<!-- Section 'LES DEPOTS POUR ADMIN' -->
+<div class='deposit categ admin_depot' data-categorie='admin_depots'>
+                   <h3>Les dépôts</h3>
+                   <input type='text' id='filter_title_input' onkeyup='searchByTitle()' placeholder='Chercher un titre...'>
+                   <table class='table_deposit deposit_admin' id='table_admin'>
+                       <tr>
+                           <th>Titre de l'article</th>
+                           <th>Resumé de l'article</th>
+                           <th>Email de l'auteur</th>
+                           <th>Date de l'article</th>
+                           <th>Statut du dépôt</th>
+                           <th>PDF</th>
+
+                       </tr>
+                       ";
+                       
+                       foreach ($listedepots as $key => $variable)           
+                        {
+                            $articleId = $listedepots[$key]['soumission_id'];
+                            $articleStatut = $listedepots[$key]['soumettre_statut'];
+                            $content_page .="
+                            <tr class='line' onclick='return ReAssignDepot(`$articleId`)'>
+                                <td data-th='Titre de l'article'>".$listedepots[$key]['titre_article']."</td>
+                                <td data-th='Resumé de l'article'>".$listedepots[$key]['resumer_article']."</td>
+                               
+                                <td data-th='Email de l'auteur'>".$listedepots[$key]['email_user']."</td>
+                                <td data-th='Date de l'article'>".$listedepots[$key]['soumettre_date_ecriture']."</td>";
+                                $statut_line ="";
+                                if ($listedepots[$key]['soumettre_statut'] == "Valide"){
+                                    $statut_line =" <td class='validate' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."</td>";
+                                }
+                                else if ($listedepots[$key]['soumettre_statut'] == "En cours") {
+                                    $statut_line =" <td class='checking' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."</td>";
+                                }
+                                else {
+                                    $statut_line =" <td class='refused' data-th='Statut du dépôt'>".$listedepots[$key]['soumettre_statut']."</td>";
+                                }
+                              
+                                $content_page .="
+                                ".$statut_line."
+                                <td data-th='PDF'><a target='_blank' href='assets/articles/".$listedepots[$key]['fichier_article']."'><i class='fill fa fa-file-pdf-o'></i></a></td>
+                            </tr>";
+                        }
+                       $content_page .="
+                       
+                   </table>
+                   ".$msg_valid."
+                   <p class='remarque'>Veuillez cliquer sur un adhérent pour modifier ses informations, il est aussi possible de cliquer sur l'icone PDF pour accéder au fichier.</p>
+                   
+                   <div class='modal' id='modal2'>
+                   <div class='modal-content'>
+                       <div class='btn_close'>
+                           <span class='close close2'>&times;</span>
+                       </div>
+                       
+                       <div class='modify_title'>
+                           <h3>Modification</h3>
+                       </div>
+                      
+                       <form method='post' action='#'>
+                       
+                           <input type='text' name='new_id' id='article_id' hidden >
+               
+               
+                           <select name='new_statut_depot' required>
+                               <option selected disabled value=''>Status du dépôt</option>
+                               <option value='Valide'>Valide</option>
+                               <option value='En cours'>En cours</option>
+                               <option value='Refus'>Refus</option>
+                           </select>
+               
+
+                           
+                           <input type='submit' value='Modifier'  class='validation_pw' name='valider_modif_depot'>
+                       </form>
+                   </div>
+                   </div>
+               </div>
+               </div>
+               
+";
+}
 else {
     require_once("assets/sql/linkBDD.php");
     $id = $_SESSION['identification'];
@@ -429,10 +555,10 @@ else {
 
 
 
+                </div>
+
             </div>
 
-        </div>
-        
     </section>
     <!-- Footer Import -->
     <?php include "assets/includes/footer.php" ?>

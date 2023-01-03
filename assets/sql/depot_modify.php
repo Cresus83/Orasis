@@ -30,7 +30,7 @@ try {
     
     catch (Exception $e) {
         $msg_valid ="<p style='color:red;margin-top:5%;'>Les informations n'ont pas pu étre modifiés, veuillez revoir vos informations.</p>";
-        print_r($modifDepot->errorInfo());
+        //*print_r($modifDepot->errorInfo());
     }
 
 

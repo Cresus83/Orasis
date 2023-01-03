@@ -290,6 +290,16 @@ input:disabled {
   cursor: pointer;
 }
 
+table {
+  width: 110%;
+}
+
+tbody {
+  display: block; /* to enable vertical scrolling */
+  max-height: 400px; /* e.g. */
+  overflow-y: scroll; /* keeps the scrollbar even if it doesn't need it; display purpose */
+}
+
 .deposit_admin th {
   width: 18%;
 }
@@ -530,9 +540,9 @@ input:disabled {
   .account_form {
     padding-top: 15%;
   }
-  
-  li{
-      list-style:none;
+
+  li {
+    list-style: none;
   }
   .vertical_nav {
     display: none;
@@ -549,7 +559,7 @@ input:disabled {
     width: 90%;
     margin-bottom: 5%;
     text-align: center;
-    font-size:16px;
+    font-size: 16px;
   }
   .mt,
   .mr {
@@ -636,9 +646,9 @@ input:disabled {
     left: 40%;
     position: relative;
   }
-  
+
   .title_form {
-      font-size:16px;
+    font-size: 16px;
   }
 }
 
@@ -719,8 +729,8 @@ input:disabled {
 @media (min-width: 961px) {
 }
 @media (min-width: 1025px) {
-     .title_form {
-      font-size:24px;
+  .title_form {
+    font-size: 24px;
   }
   .vertical_nav {
     display: flex;
@@ -741,7 +751,7 @@ input:disabled {
   /*Responsive DEPOTS*/
   .table_deposit,
   .table_adherent {
-    margin-top: 10%;
+    margin-top: 3%;
   }
   .table_deposit TH {
     text-align: left;
@@ -751,6 +761,9 @@ input:disabled {
   }
   .table_deposit td {
     font-size: 16px;
+  }
+  body {
+    overflow-y: hidden;
   }
 }
 @media (min-width: 1281px) {
