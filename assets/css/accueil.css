@@ -157,7 +157,8 @@
   line-height: 32px;
 }
 
-.discover a, .discover button {
+.discover a,
+.discover button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -171,17 +172,20 @@
   font-family: inherit;
 }
 
-.discover a.learn-more, .discover button.learn-more {
+.discover a.learn-more,
+.discover button.learn-more {
   width: 18rem;
   height: auto;
 }
 
-.discover a.length, .discover button.length {
+.discover a.length,
+.discover button.length {
   width: 25rem;
   height: auto;
 }
 
-.discover a.learn-more .circle, .discover button.learn-more .circle {
+.discover a.learn-more .circle,
+.discover button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -193,7 +197,8 @@
   box-shadow: 1px 1px 20px #01567a;
 }
 
-.discover a.learn-more .circle .icon, .discover button.learn-more .circle .icon {
+.discover a.learn-more .circle .icon,
+.discover button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -202,7 +207,8 @@
   background: #fff;
 }
 
-.discover a.learn-more .circle .icon.arrow, .discover button.learn-more .circle .icon.arrow {
+.discover a.learn-more .circle .icon.arrow,
+.discover button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
@@ -210,7 +216,8 @@
   background: none;
 }
 
-.discover a.learn-more .circle .icon.arrow::before, .discover button.learn-more .circle .icon.arrow::before {
+.discover a.learn-more .circle .icon.arrow::before,
+.discover button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.3rem;
@@ -222,7 +229,8 @@
   transform: rotate(45deg);
 }
 
-.discover a.learn-more .button-text, .discover button.learn-more .button-text {
+.discover a.learn-more .button-text,
+.discover button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -238,21 +246,25 @@
   text-transform: uppercase;
 }
 
-.discover a.learn-more .button-text a, .discover button.learn-more .button-text button {
+.discover a.learn-more .button-text a,
+.discover button.learn-more .button-text button {
   color: unset;
   text-decoration: none;
 }
 
-.discover a:hover .circle, .discover button:hover .circle {
+.discover a:hover .circle,
+.discover button:hover .circle {
   width: 100%;
 }
 
-.discover a:hover .circle .icon.arrow, .discover button:hover .circle .icon.arrow  {
+.discover a:hover .circle .icon.arrow,
+.discover button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
 }
 
-.discover a:hover .button-text, .discover button:hover .button-text {
+.discover a:hover .button-text,
+.discover button:hover .button-text {
   color: #fff;
 }
 
@@ -462,8 +474,8 @@
   font-weight: 500;
   cursor: pointer;
   font-size: 20px;
-  text-decoration:none;
-  padding:1% 2%;
+  text-decoration: none;
+  padding: 1% 2%;
 }
 
 .btnCTA .fa {
@@ -543,7 +555,7 @@
   line-height: 40px;
   margin: 5% 0 5% 0;
   cursor: pointer;
-text-decoration:none;
+  text-decoration: none;
 }
 
 .registerbtn .fa {
@@ -626,7 +638,7 @@ text-decoration:none;
     margin: 4% auto;
     align-items: center;
     justify-content: center;
-    text-decoration:none;
+    text-decoration: none;
   }
 
   .about_icons {
@@ -671,7 +683,7 @@ text-decoration:none;
   .owl-item iframe {
     width: 310px;
     height: 250px;
-    border:none;
+    border: none;
   }
 
   .Activites .doublesquare .leftzone {
@@ -681,7 +693,7 @@ text-decoration:none;
   .grid_theme {
     grid-template-columns: repeat(2, 40%);
     grid-gap: 2%;
-    padding-top: 80%;
+    padding-top: 70%;
     max-height: 85%;
     overflow-y: scroll;
   }
@@ -711,7 +723,7 @@ text-decoration:none;
 
   .about_title {
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 2rem;
   }
 
@@ -726,6 +738,7 @@ text-decoration:none;
   .about_text2 p {
     max-height: 95%;
     overflow: scroll;
+    font-size: 12px;
   }
   .about_img2 {
     display: none;
@@ -790,6 +803,7 @@ text-decoration:none;
   .about_text2 p {
     overflow: hidden;
     max-height: 100%;
+    font-size: 16px;
   }
 }
 
@@ -814,7 +828,7 @@ text-decoration:none;
     height: 250px;
   }
   .btnCTA {
-      width: 340px;
+    width: 340px;
   }
 }
 
@@ -932,7 +946,8 @@ text-decoration:none;
     padding-bottom: 10%;
   }
 
-  .discover a, .discover button {
+  .discover a,
+  .discover button {
     display: inline-block;
   }
 

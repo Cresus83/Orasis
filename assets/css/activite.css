@@ -217,8 +217,7 @@
   }
 
   .activity_photo {
-    width: 80%;
-    margin-top: 2rem;
+    display: none;
   }
   .modal {
     z-index: 100;
@@ -237,6 +236,7 @@
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
   .activity_photo {
+    display: flex;
     width: 50%;
   }
   .activity_text p {
