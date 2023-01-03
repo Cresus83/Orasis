@@ -537,6 +537,29 @@ tbody {
 }
 @media (min-width: 320px) {
   /* RESPONSIVE MON COMPTE */
+
+  .security_mob {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    flex-direction: column;
+  }
+
+  .security_mob img {
+    width: 70%;
+  }
+
+  .security_mob p {
+    max-width: 90%;
+
+    font-size: 19px;
+  }
   .account_form {
     padding-top: 15%;
   }
@@ -727,6 +750,9 @@ tbody {
   }
 }
 @media (min-width: 961px) {
+  .security_mob {
+    display: none;
+  }
 }
 @media (min-width: 1025px) {
   .title_form {

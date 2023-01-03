@@ -267,6 +267,11 @@ if ($_SESSION['role'] == "Administrateur"){
                    </div>
                </div>
                </div>
+
+               <div class='security_mob'>
+               <img src='assets/img/gif/locked.gif' alt='Pc image'>
+               <p>Pour des raisons de sécurités et de la bonne gestion des données utilisateurs, veuillez vous connectez depuis un ordinateur.</p>
+               </div>
                
 ";
 
@@ -388,6 +393,10 @@ $content_page = "
                    </div>
                    </div>
                </div>
+               </div>
+               <div class='security_mob'>
+               <img src='assets/img/gif/locked.gif' alt='Pc image'>
+               <p>Pour des raisons de sécurités et de la bonne gestion des données utilisateurs, veuillez vous connectez depuis un ordinateur.</p>
                </div>
                
 ";
