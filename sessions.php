@@ -29,7 +29,7 @@ session_start();
                     <span>-</span>
                     <a href="#" data-cat="classification">Classification</a>
                     <span>-</span>
-                    <a href="#" data-cat="detection">Détéction</a>
+                    <a href="#" data-cat="detection">Détection</a>
                     <span>-</span>
                     <a href="#" data-cat="robots">Robotique</a>
                     <span>-</span>

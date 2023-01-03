@@ -889,6 +889,12 @@
   .about_title {
     font-size: 28px;
     margin-top: 0;
+    text-align: left;
+  }
+
+  .strong {
+    font-size: 14px;
+    display: block;
   }
 
   .modal-content {

@@ -31,7 +31,7 @@ try {
     $modifUser->bindParam(':new_role', $role, PDO::PARAM_STR);
 
     $modifUser->execute();   
-    $msg_valid ="<p style='color:green;margin-top:5%;'>Les informations ont été modifiés avec succés.</p>";
+    $msg_valid ="<p style='color:green;margin-top:5%;'>Les informations ont été modifiées avec succès.</p>";
     
 }
 

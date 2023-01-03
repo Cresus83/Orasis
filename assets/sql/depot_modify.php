@@ -23,7 +23,7 @@ try {
 
     print_r($modifDepot->errorInfo());
     $modifDepot->execute();   
-    $msg_valid ="<p style='color:green;margin-top:5%;'>Les informations ont été modifiés avec succés.</p>";
+    $msg_valid ="<p style='color:green;margin-top:5%;'>Les informations ont été modifiées avec succès.</p>";
     
 }
 

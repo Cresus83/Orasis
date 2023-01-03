@@ -73,10 +73,12 @@ session_start();
                         </div>
 
                         <div class="conf-text2">
-                            <ul><p> 
-                                Les frais d’inscription incluent un service de restauration couvrant toute la période de
-                                la
-                                conférence pour tous les participants :<br></p>
+                            <ul>
+                                <p>
+                                    Les frais d’inscription incluent un service de restauration couvrant toute la
+                                    période de
+                                    la
+                                    conférence pour tous les participants :<br></p>
                                 <li>
                                     4 petits déjeuners.
                                 </li>
@@ -88,8 +90,7 @@ session_start();
                                 </li>
                             </ul>
                             <a href="inscription.php" class="btnCTA">
-                                comment s'inscrire ? <i
-                                        class="fa fa-solid fa-chevron-right"></i>
+                                comment s'inscrire ? <i class="fa fa-solid fa-chevron-right"></i>
                             </a>
                         </div>
                     </div>
@@ -123,7 +124,8 @@ session_start();
                                         alt="Google Play App Download"
                                         src="assets/img/webp/google-play-app-download.webp"></a>
                                 <a target="_blank" href="https://apps.apple.com/fr/app/reseau-mistral/id429896529"><img
-                                        alt="App Store App Download" src="assets/img/webp/app-store-app-download.webp"></a>
+                                        alt="App Store App Download"
+                                        src="assets/img/webp/app-store-app-download.webp"></a>
                             </div>
 
                         </div>
@@ -179,8 +181,7 @@ session_start();
                                 nous la
                                 percevons par le nombre de soumissions à RFIA...</p>
 
-                            <a href="http://www.afrif.asso.fr/?page_id=64" class="btnmore"> en savoir plus <i
-                                        class="fa fa-solid fa-chevron-right"></i></a>
+
                         </div>
                     </div>
                     <a href="http://www.afrif.asso.fr/?page_id=64" class="btnCTA2">

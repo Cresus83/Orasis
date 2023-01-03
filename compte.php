@@ -362,7 +362,7 @@ $content_page = "
                        
                    </table>
                    ".$msg_valid."
-                   <p class='remarque'>Veuillez cliquer sur un adhérent pour modifier ses informations, il est aussi possible de cliquer sur l'icone PDF pour accéder au fichier.</p>
+                   <p class='remarque'>Veuillez cliquer sur un adhérent pour modifier ses informations. Il est aussi possible de cliquer sur l'icone PDF pour accéder au fichier.</p>
                    
                    <div class='modal' id='modal2'>
                    <div class='modal-content'>

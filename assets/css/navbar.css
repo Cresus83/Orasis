@@ -29,7 +29,7 @@ ul {
     linear-gradient(to right, #00b4db 41.35%, #0b82b6 50%) border-box;
   border-bottom: 4px solid transparent;
   position: absolute;
-  z-index: 3;
+  z-index: 9;
 }
 
 .ovY {
@@ -212,8 +212,9 @@ li > a.active-nav::after {
 }
 
 @media screen and (max-width: 750px) {
-  html, body {
-    overflow-x:hidden;
+  html,
+  body {
+    overflow-x: hidden;
   }
 
   .navbar .right {

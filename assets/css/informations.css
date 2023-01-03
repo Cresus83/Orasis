@@ -3,232 +3,231 @@
 --------------------------------------------------------------*/
 @import "template.css";
 
-
 .title-section h1 {
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-    font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .conference {
-    padding: 80px 0 80px 0;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  padding: 80px 0 80px 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .doublesquare {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .conf-text {
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    border-radius: 10px;
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    background-color: #fff;
-    margin: auto;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: auto;
 }
 
 .conf-img {
-    display: flex;
-    border-radius: 10px;
-    justify-content: end;
+  display: flex;
+  border-radius: 10px;
+  justify-content: end;
 }
 
 .conf-img img {
-    width: 80%;
+  width: 80%;
 }
 
 .bloc-text {
-    width: 100%;
-    display: flex;
-    border-radius: 10px;
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    background-color: #fff;
-    margin: 40px auto;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 40px auto;
 }
 
 .bloc-text li {
-    padding: 5px;
-    margin-left: 50px;
+  padding: 5px;
+  margin-left: 50px;
 }
 
 .conf-img3 {
-    display: flex;
-    border-radius: 10px;
-    justify-content: start;
+  display: flex;
+  border-radius: 10px;
+  justify-content: start;
 }
 
 .conf-img3 img {
-    width: 80%;
+  width: 80%;
 }
 
 .conf-text2 {
-    display: flex;
-    border-radius: 10px;
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    font-size: 18px;
-    background-color: #fff;
-    padding: 30px;
-    margin: auto;
-    flex-direction: column;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  background-color: #fff;
+  padding: 30px;
+  margin: auto;
+  flex-direction: column;
 }
 
 .conf-text2 li {
-    padding: 5px;
-    margin-left: 50px;
+  padding: 5px;
+  margin-left: 50px;
 }
 
-
 .btnCTA {
-    width: 340px;
-    height: 3.3rem;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    background: #01567a;
-    border-radius: 5px;
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
-    margin-top: 2rem;
-    text-decoration:none;
-    padding: 2% 2%;
+  width: 340px;
+  height: 3.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background: #01567a;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 2rem;
+  text-decoration: none;
+  padding: 2% 2%;
 }
 
 .btnCTA .fa {
-    position: relative;
-    font-size: 20px;
+  position: relative;
+  font-size: 20px;
 }
 
 .plan-acces {
-    border-radius: 10px;
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    font-size: 18px;
-    background-color: #fff;
-    padding: 30px 0 30px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  background-color: #fff;
+  padding: 30px 0 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.gare h2, .aeroport h2 {
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 2rem;
+.gare h2,
+.aeroport h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .gare {
-    width: 50%;
-    border-right: 2px solid black;
-    padding: 0 30px 0 30px;
+  width: 50%;
+  border-right: 2px solid black;
+  padding: 0 30px 0 30px;
 }
 
 .aeroport {
-    width: 50%;
-    padding: 0 30px 0 30px;
+  width: 50%;
+  padding: 0 30px 0 30px;
 }
 
 .aeroport span {
-    color: #01567A;
-    font-weight: 600;
+  color: #01567a;
+  font-weight: 600;
 }
 
 .app-download {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .conference iframe {
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    border: 0;
-    border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border: 0;
+  border-radius: 10px;
 }
 
 .afrif {
-    border-radius: 10px;
-    -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.10);
-    font-size: 18px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -4px -2px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title-afrif {
-    background-color: #01567A;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+  background-color: #01567a;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .title-afrif h2 {
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .btnmore {
-    position: relative;
-    width: 230px;
-    height: 2.5rem;
-    margin: 2% 3%;
-    font-weight: 500;
-    font-size: 20px;
-    border: 2px solid #01567A;
-    color: #01567A;
-    background: #fff;
-    border-radius: 100px;
-    cursor: pointer;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    float: right;
-    text-transform: uppercase;
-     text-decoration:none;
+  position: relative;
+  width: 230px;
+  height: 2.5rem;
+  margin: 2% 3%;
+  font-weight: 500;
+  font-size: 20px;
+  border: 2px solid #01567a;
+  color: #01567a;
+  background: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .fa {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .btnCTA2 {
-    width: 340px;
-    height: 3.3rem;
-    text-transform: uppercase;
-    color: white;
-    background: #01567a;
-    border-radius: 5px;
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
-    margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     text-decoration:none;
-     padding: 2% 2%;
+  width: 340px;
+  height: 3.3rem;
+  text-transform: uppercase;
+  color: white;
+  background: #01567a;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 2% 2%;
 }
 
 /*--------------------------------------------------------------
@@ -236,225 +235,240 @@
 --------------------------------------------------------------*/
 
 @media (min-width: 320px) {
-    /* smartphones, iPhone, portrait 480x320 phones */
-    .title-section h1 {
-        font-size: 24px;
-    }
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .title-section h1 {
+    font-size: 24px;
+  }
 
-    .conference {
-        width: 100%;
-    }
+  .conference {
+    width: 100%;
+  }
 
-    .btnCTA, .btnCTA2 {
-        font-size: 17px;
-        width: 250px;
-    }
+  .btnCTA,
+  .btnCTA2 {
+    font-size: 17px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .plan-acces {
-        display: flex;
-        flex-direction: column;
-    }
+  .plan-acces {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .gare {
-        width: 100%;
-        border-right: 0;
-        border-bottom: 2px solid black;
-        padding: 0 10px 0 10px;
-        text-align: center;
-    }
+  .gare {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
 
-    .gare h2, .aeroport h2 {
-        font-size: 21px;
-    }
+  .gare h2,
+  .aeroport h2 {
+    font-size: 21px;
+  }
 
-    .gare p, .aeroport p {
-        font-size: 16px;
-    }
+  .gare p,
+  .aeroport p {
+    font-size: 16px;
+  }
 
-    .aeroport {
-        width: 100%;
-        padding: 20px 10px 20px 10px;
-    }
+  .aeroport {
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+  }
 
-    .app-download {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        text-align: center;
-    }
+  .app-download {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .doublesquare {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+  .doublesquare {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-    .conf-text, .conf-text2 {
-        width: 100%;
-    }
+  .conf-text,
+  .conf-text2 {
+    width: 100%;
+  }
 
-    .conf-text, .conf-text2 {
-        font-size: 16px;
-        padding: 20px 10px 20px 10px;
-    }
+  .conf-text,
+  .conf-text2 {
+    font-size: 16px;
+    padding: 20px 10px 20px 10px;
+  }
 
-    .conf-text2 li, .bloc-text li {
-        margin-left: 30px;
-    }
+  .conf-text2 li,
+  .bloc-text li {
+    margin-left: 30px;
+  }
 
-    .conf-text2 a {
-        display: flex;
-        margin: auto;
-    }
+  .conf-text2 a {
+    display: flex;
+    margin: auto;
+  }
 
-    .conf-img {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
+  .conf-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 
-    .conf-img img {
-        width: 100%;
-    }
+  .conf-img img {
+    width: 100%;
+  }
 
-    .conf-img3 img {
-        display: none;
-    }
+  .conf-img3 img {
+    display: none;
+  }
 
-    .afrif-text .btnmore {
-        width: 200px;
-        margin: 4% 12%;
-        font-size: 16px;
-    }
+  .afrif-text .btnmore {
+    width: 200px;
+    margin: 4% 12%;
+    font-size: 16px;
+  }
 
-    .bloc-text {
-        padding: 20px 10px 20px 10px;
-        font-size: 16px;
-    }
-    .title-afrif h2 {
-        font-size: 22px;
-    }
+  .bloc-text {
+    padding: 20px 10px 20px 10px;
+    font-size: 16px;
+  }
+  .title-afrif h2 {
+    font-size: 22px;
+  }
 
-    .afrif-text p {
-        padding: 20px 10px 20px 10px;
-        font-size: 16px;
-    }
+  .afrif-text p {
+    padding: 20px 10px 20px 10px;
+    font-size: 16px;
+  }
 
-    .title-afrif {
-        padding: 10px;
-    }
+  .title-afrif {
+    padding: 10px;
+  }
 }
 
 @media (min-width: 481px) {
-    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    .title-section h1 {
-        font-size: 36px;
-    }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .title-section h1 {
+    font-size: 36px;
+  }
 
-    .afrif-text .btnmore {
-        width: 230px;
-        margin: 2% 3%;
-        font-size: 20px;
-        float: right;
-    }
+  .afrif-text .btnmore {
+    width: 230px;
+    margin: 2% 3%;
+    font-size: 20px;
+    float: right;
+  }
 }
 
 @media (min-width: 641px) {
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    .app-download {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        text-align: center;
-    }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .app-download {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+  }
 
-    .conference {
-        width: 80%;
-    }
+  .conference {
+    width: 80%;
+  }
 
-    .conf-text, .conf-text2 {
-        padding: 30px;
-        font-size: 18px;
-    }
+  .conf-text,
+  .conf-text2 {
+    padding: 30px;
+    font-size: 18px;
+  }
 
-    .bloc-text {
-        padding: 30px;
-        font-size: 18px;
-    }
+  .bloc-text {
+    padding: 30px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1281px) {
-    /* hi-res laptops and desktops */
-    .container {
-        /* On ajoute une marge sur les cotés de l’écran */
-        padding-right: 10%;
-        padding-left: 10%;
-    }
+  /* hi-res laptops and desktops */
+  .container {
+    /* On ajoute une marge sur les cotés de l’écran */
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 
-    .plan-acces {
-        display: flex;
-        flex-direction: row;
-    }
+  .plan-acces {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .gare {
-        width: 100%;
-        border-right: 2px solid black;
-        border-bottom: 0;
-        padding: 0 30px 0 30px;
-        text-align: center;
-    }
+  .gare {
+    width: 100%;
+    border-right: 2px solid black;
+    border-bottom: 0;
+    padding: 0 30px 0 30px;
+    text-align: center;
+  }
 
-    .aeroport {
-        padding: 0 30px 0 30px;
-    }
+  .aeroport {
+    padding: 0 30px 0 30px;
+  }
 
-    .doublesquare {
-        display: flex;
-        flex-direction: row;
-    }
+  .doublesquare {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .conf-img {
-        width: 50%;
-        margin-bottom: 0;
-    }
+  .conf-img {
+    width: 50%;
+    margin-bottom: 0;
+  }
 
-    .conf-text {
-        width: 50%;
-    }
+  .conf-text {
+    width: 50%;
+  }
 
-    .conf-text2 {
-        width: 80%;
-    }
+  .conf-text2 {
+    width: 80%;
+  }
 
-    .conf-text2 a {
-        margin: unset;
-    }
+  .conf-text2 a {
+    margin: unset;
+    align-items: center;
+  }
 
-    .conf-text2 li, .bloc-text li {
-        margin-left: 50px;
-    }
+  .conf-text2 li,
+  .bloc-text li {
+    margin-left: 50px;
+  }
 
-    .conf-img img {
-        width: 80%;
-    }
+  .conf-img img {
+    width: 80%;
+  }
 
-    .conf-img3 img {
-        display: unset;
-    }
+  .conf-img3 img {
+    display: unset;
+  }
 
-    .afrif-text .btnmore {
-        width: 230px;
-        margin: 2% 3%;
-        font-size: 20px;
-        float: right;
-    }
-    .title-afrif h2 {
-        font-size: 27px;
-    }
+  .afrif-text .btnmore {
+    width: 230px;
+    margin: 2% 3%;
+    font-size: 20px;
+    float: right;
+  }
+  .title-afrif h2 {
+    font-size: 27px;
+  }
 
-    .afrif-text p {
-        padding: 30px;
-    }
+  .afrif-text p {
+    padding: 30px;
+  }
 
-    .title-afrif {
-        padding: 10px 10px 10px 30px;
-    }
+  .title-afrif {
+    padding: 10px 10px 10px 30px;
+  }
+  .btnCTA,
+  .btnCTA2 {
+    width: 260px;
+  }
 }
