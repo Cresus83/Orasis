@@ -179,6 +179,7 @@ if ($_SESSION['role'] == "Administrateur"){
                 <option selected disabled value=''>Rôle de l'adhérent</option>
                 <option value='Administrateur'>Administrateur</option>
                 <option value='Participant'>Participant</option>
+                <option value='Relecteur'>Relecteur</option>
                 <option value='Auteur'>Auteur</option>
             </select>
             
