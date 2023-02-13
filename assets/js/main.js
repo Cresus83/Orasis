@@ -25,7 +25,7 @@ if ($("body").data("title") === "js_index") {
   // Id du modal général
   let modalTheme = document.getElementById("modal_theme");
 
-  // Button vue en semaine
+  // Button view en semaine
   let btnTheme = document.getElementById("theme_btn");
 
   // Bouton fermeture
@@ -55,7 +55,7 @@ if ($("body").data("title") === "js_index") {
   // Id du modal général
   let modalAbout = document.getElementById("modal_about");
 
-  // Button vue en semaine
+  // Button view en semaine
   let btnAbout = document.getElementById("about_btn");
 
   // Bouton fermeture
@@ -175,7 +175,7 @@ if ($("body").data("title") === "js_programme") {
   // Id du modal général
   let modal = document.getElementById("modal");
 
-  // Button vue en semaine
+  // Button view en semaine
   let btnView = document.getElementById("week_view");
 
   // Bouton fermeture
